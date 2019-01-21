@@ -20,20 +20,25 @@
     animation: caret 1s steps(1) infinite;
   }
 
+  h1 {;
+    font-size: 6em;
+    color: #0A1C58;
+    background-color: white;
+    margin-bottom: 50px;
+    margin-top: 42px;
+    text-align: center;
+    border-style: double;
+    padding: 64px 54px 87px 31px;
+    border-radius: 10px 97px 20px 90px;
+  }
+
   @keyframes caret {
     50% {
       border-color: transparent;
     }
   }
-}
 
-.titleweare h1 {;
-  font-size: 6em;
-  color: #0A1C58;
-  background-color: white;
-  margin-bottom: 50px;
-  margin-top: 42px;
-  text-align: center;
+
 
   @media only screen and (max-width: 768px) {
     .titleweare h1 {
@@ -141,7 +146,6 @@
     font-family: Helvetica, Neue !important;
     font-weight: bold !important;
     color: #0A1C58;
-
   }
 
   p{
