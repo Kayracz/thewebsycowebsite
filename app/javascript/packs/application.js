@@ -18,7 +18,7 @@
 
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter
-  var dataText = ["Hello, we are Websy !", "WEB DEVELOPERS.", "DREAMERS.", "BUILDERS", "CREATORS.", "GAME CHANGERS", "Hello, we are Websy !"];
+  var dataText = ["We are Websy !", "WEB DEVELOPERS.", "DREAMERS.", "BUILDERS", "CREATORS.", "GAME CHANGERS", "Hello, we are Websy !"];
   // type one text in the typwriter
   // keeps calling itself until the text is finished
   function typeWriter(text, i, fnCallback) {
