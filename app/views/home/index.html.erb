@@ -1,2 +1,41 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<!--Navbar-->
+
+<%= render "layouts/navbar" %>
+
+<!--WE ARE TYPESCRIPT #2-->
+
+<body>
+
+ <div class="container">
+  <div class="titleweare">
+    <h1>Hello, We are Websy ! </h1>
+  </div>
+</div>
+
+
+ <!-- What we do -->
+ <div class= "container">
+   <div class="text-center">
+    <div class="wedo">
+      <h1><%= t "homes.title"%></h1>
+      <p><%= t "homes.description"%></p>
+      <p><%= t "homes.description2"%></p>
+      <h1>  <%= image_tag "Webxy.png", height: 50 %> </h1>
+    </div>
+  </div>
+</div>
+
+
+<!-- Cliengo installation code for http://www.thewebsyco.com -->
+<script type="text/javascript">(function () {
+  var ldk = document.createElement('script');
+  ldk.type = 'text/javascript';
+  ldk.async = true;
+  ldk.src = 'https://s.cliengo.com/weboptimizer/5c397e7be4b0afe542032063/5c397e7ce4b0afe542032066.js';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(ldk, s);
+})();</script>
+
+<!-- footer -->
+
+<%= render "layouts/footer" %>
