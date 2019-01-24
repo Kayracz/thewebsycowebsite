@@ -238,7 +238,13 @@ main-title hidden {
 }
 
 
-
+.footer-about {
+    width: 25%;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
 
 /* Footer */
@@ -251,6 +257,7 @@ main-title hidden {
   height: 100px;
   padding: 0px 50px;
   color: white !important;
+  height: 186px;
 }
 .footer-links {
   display: flex;
