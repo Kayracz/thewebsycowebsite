@@ -31,3 +31,10 @@
 
 en:
   hello: "Hello world"
+  homes:
+   title: "WE DEVELOP WEBSITES THAT DO EXACTLY WHAT YOU NEED "
+   description: "We are a team of creative innovators that transform your business ideas into a product you can showcase to the world. We specialize in custom web development services."
+   description2: "Our custom websites are created to cater to your unique business needs, Solutions that will be tailored to perfectly fit your business strategy."
+   comingsoon: "COMING SOON"
+   language: "Language"
+
