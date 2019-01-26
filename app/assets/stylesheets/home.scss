@@ -4,6 +4,10 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.secretrecipe{
+      background-color: white;
+}
+
 .titlesauce{
     font-size: 38px;
     font-family: Helvetica, Neue !important;
@@ -11,11 +15,14 @@
     color: #0A1C58;
     font-weight: bold !important;
     h2{
-   margin-left: 82px !important;
+   margin-left: 228px !important;
+   margin-top:46px;
     font-size: 38px;
     font-family: Helvetica, Neue !important;
     font-weight: bold !important;
     color: #0A1C58;
+    font-weight: bold !important;
+
     }
 }
 
@@ -31,16 +38,18 @@ h1 {
 .content-slider {
       width: 50% !important;
     height: 3px;
-    margin-left: 80px;
+    margin-left: 192px;
     margin-top: 196px;
+    font-family: Helvetica, Neue !important;
 }
 
 .slider {
-  height: 320px;
-  width: 680px;
-  margin: 40px auto 0;
-  overflow: visible;
-  position: relative;
+      height: 320px;
+    width: 680px;
+    margin: 52px auto 0;
+    overflow: visible;
+    position: relative;
+    margin-left: 27px;
 }
 
 .mask {
@@ -540,15 +549,18 @@ h4 {
 }
 
 #slideshow {
-    border-radius: 468px 33px 280px 8px;
-        overflow: hidden;
-    height: 532px;
-    width: 705px;
-    margin-bottom: 42px;
-        border-radius: 297px 26px -16px 20px;
-        margin: -136px 62px 90px 305px;
-    margin-right: -138px;
+  border-radius: 50%;
+    overflow: hidden;
+    height: 500px;
+    margin-bottom: 36px !important;
+    width: 500px;
+    margin: -137px 0px 0px 543px;
+
+    img{
+    margin: -3%;
 }
+}
+
 
 .slide-wrapper {
   width: 2912px;
