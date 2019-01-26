@@ -16,6 +16,12 @@
 //= require turbolinks
 //= require_tree .
 
+
+
+
+
+
+
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter
   var dataText = ["We are Websy !", "WEB DEVELOPERS.", "DREAMERS.", "BUILDERS", "CREATORS.", "GAME CHANGERS", "Hello, we are Websy !"];
