@@ -81,9 +81,7 @@ font-size: 24px !important;
 
 
 .secretrecipe{
-          background-color: white;
-    box-shadow: skyblue;
-    box-shadow: 7px 0px 7px 1px lightgrey;
+    background-color: white;
 }
 
 .titlesauce{
@@ -607,8 +605,8 @@ h4 {
 }
 
 #slideshow {
-  border-radius: 50%;
-    overflow: hidden;
+  border-radius: 5%;
+  overflow: hidden;
     height: 500px;
     margin-bottom: 36px !important;
     width: 500px;
@@ -882,19 +880,21 @@ main-title hidden {
 
 
 .footer-about {
-    width: 25%;
+        width: 18%;
     line-height: 24px;
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 
-    font-family: bebas neue;
-    font-weight: bold;
-    font-size: 32px;
+
+    // font-weight: bold;
+
 
     p{
       font-size: 10px;
       font-family: helvetica;
+      margin-left: 15px;
     }
 }
 
