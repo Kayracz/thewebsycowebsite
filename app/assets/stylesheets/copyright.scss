@@ -4,12 +4,24 @@
   align-items: center;
   justify-content:center;
   flex-direction: column;
- margin-left: 412px;
+
 }
+     margin-left: 35% !important;
+    margin-bottom: -10% !important;
 }
 
 .copyright-text {
 align-items:center;
+margin:10%;
+color: #0A1C58;
+
+h2{
+  text-align: center;
+  padding-bottom: 50px;
+}
+p{
+  text-align: left;
+}
 }
 
 .footer-copyright{

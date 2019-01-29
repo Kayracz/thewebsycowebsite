@@ -4,6 +4,8 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
 .secretrecipe{
       background-color: white;
 }
@@ -83,9 +85,9 @@ h1 {
 }
 
 .slider li.anim1 {
-  -moz-animation: cycle1 10s linear infinite;
-  -webkit-animation: cycle1 10s linear infinite;
-  animation: cycle1 15s linear infinite;
+  -moz-animation: cycle1 4s linear infinite;
+  -webkit-animation: cycle1 4s linear infinite;
+  animation: cycle1 5s linear infinite;
 }
 
 .slider li.anim2 {
@@ -100,23 +102,6 @@ h1 {
   animation: cycle3 15s linear infinite;
 }
 
-.slider li.anim4 {
-  -moz-animation: cycle4 15s linear infinite;
-  -webkit-animation: cycle4 15s linear infinite;
-  animation: cycle4 15s linear infinite;
-}
-
-.slider li.anim5 {
-  -moz-animation: cycle5 15s linear infinite;
-  -webkit-animation: cycle5 15s linear infinite;
-  animation: cycle5 15s linear infinite;
-}
-
-.slider:hover li {
-  -moz-animation-play-state: paused;
-  -webkit-animation-play-state: paused;
-  animation-play-state: paused;
-}
 
 @-moz-keyframes cycle {
   0% {
@@ -555,6 +540,7 @@ h4 {
     margin-bottom: 36px !important;
     width: 500px;
     margin: -137px 0px 0px 543px;
+  border: 20px solid #021a40;
 
     img{
     margin: -3%;
