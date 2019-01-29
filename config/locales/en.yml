@@ -1,42 +1,13 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
   hello: "Hello world"
   homes:
    title: "WE DEVELOP WEBSITES THAT DO EXACTLY WHAT YOU NEED "
    description: "We are a team of creative innovators that transform your business ideas into a product you can showcase to the world. We specialize in custom web development services."
    description2: "Our custom websites are created to cater to your unique business needs, Solutions that will be tailored to perfectly fit your business strategy."
-   comingsoon: "COMING SOON"
    language: "Language"
    contactus: "CONTACT US"
    wewould: "We’d love to hear from you! Share your comments and questions,  we'll make sure we get back to you as soon as possible."
-
+   footer: "About"
+   footer1: "How we work"
+   footer2: "Services"
+   footer3: "Contact"
