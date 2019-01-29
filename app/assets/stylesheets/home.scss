@@ -11,6 +11,20 @@
 @import "copyright";
 
 
+.lettercolor{
+color: #008080;
+font-size: 22px;
+text-transform: uppercase;
+margin-bottom: 10px;
+
+}
+
+.letterem{
+color: #008080;
+font-size: 18px;
+font-style: italic;
+margin-bottom: 10px;
+}
 
 .content{
 
@@ -101,6 +115,7 @@ font-size: 24px !important;
     font-weight: bold !important;
     color: #0A1C58;
     font-weight: bold !important;
+    text-transform:uppercase;
     h2{
    margin-left: 228px !important;
    margin-top:46px;
@@ -974,16 +989,16 @@ main-title hidden {
   height: 100vh;
 }
 .parallax .bg__foo {
-  background-image: image-url('IMG_8344.jpg');
+  background-image: image-url('image.jpg');
 }
 .parallax .bg__bar {
-  background-image: image-url('12345.jpg');
+  background-image: image-url('image1.jpg');
 }
 .parallax .bg__baz {
- background-image: image-url('12345.jpg');
+ background-image: image-url('image2.jpg');
 }
 .parallax .bg__bazz {
-  background-image: image-url('12345.jpg');
+  background-image: image-url('image.jpg');
 }
 .parallax .bg__break {
   box-shadow: inset 0 0 1em #111;
