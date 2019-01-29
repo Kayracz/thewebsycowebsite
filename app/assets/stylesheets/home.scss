@@ -550,53 +550,53 @@ h1 {
 //
 
 
-.secret-sauce-phrases {
-    -ms-flex-align: end;
-    align-items: flex-end;
-    display: -ms-flexbox;
-    display: flex;
-    height: 100%;
-    margin-bottom: 10vh;
-    position: relative;
-  }
+// .secret-sauce-phrases {
+//     -ms-flex-align: end;
+//     align-items: flex-end;
+//     display: -ms-flexbox;
+//     display: flex;
+//     height: 100%;
+//     margin-bottom: 10vh;
+//     position: relative;
+//   }
 
-.secret-sauce-phrase.fade-in {
-    opacity: 1;
-    position: absolute;
-    transform: translateY(-10px) !important;
-    transition: opacity 1s ease 0.5s, transform 1s ease 0.5s !important;
-}
+// .secret-sauce-phrase.fade-in {
+//     opacity: 1;
+//     position: absolute;
+//     transform: translateY(-10px) !important;
+//     transition: opacity 1s ease 0.5s, transform 1s ease 0.5s !important;
+// }
 
-h4 {
-    display: block;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
+// h4 {
+//     display: block;
+//     margin-block-start: 1.33em;
+//     margin-block-end: 1.33em;
+//     margin-inline-start: 0px;
+//     margin-inline-end: 0px;
+//     font-weight: bold;
+// }
 
-.secret-sauce-phrase.fade-out {
-    opacity: 0;
-    position: absolute;
-    transform: translateY(10px) !important;
-    transition: opacity 1s, transform 1s;
-  }
+// .secret-sauce-phrase.fade-out {
+//     opacity: 0;
+//     position: absolute;
+//     transform: translateY(10px) !important;
+//     transition: opacity 1s, transform 1s;
+//   }
 
 
-.secret-sauce-phrase {
-    color: #00ADEE;
-    font-size: 35px;
-    line-height: 44px;
-    max-width: 18%;
-    opacity: 0;
-    transform: translateY(0);
-    transition: opacity 1s, transform 1s;
-}
+// .secret-sauce-phrase {
+//     color: #00ADEE;
+//     font-size: 35px;
+//     line-height: 44px;
+//     max-width: 18%;
+//     opacity: 0;
+//     transform: translateY(0);
+//     transition: opacity 1s, transform 1s;
+// }
 
-.secret-sauce-title {
-    margin: 0 0 0 10vw;
-}
+// .secret-sauce-title {
+//     margin: 0 0 0 10vw;
+// }
 
 
 //slider
