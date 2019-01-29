@@ -7,155 +7,47 @@
 <div id="frame">
   <article>
     <div class="parallax" >
+
       <div class="bg__foo">foo</div>
  <!--      <div class="bg__bar">bar</div>
   <div class="bg__baz">baz</div> -->
-      <div class="bg__bazz">bazz</div>
-    </div>
-    <div class="container">
-      <div class="titleweare">
-        <!-- <h2> We are </h2> -->
-        <h1>Hello, We are Websy </h1>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLScbuYKkEh4F2JQUHVh-gF9f6xb0o3Izi4s-wowVfSdA37bvXw/viewform"class="btn btn-info" target="_blank" role="button">Get your website!</a>
-      </div>
-    </div>
-  </div>
-
-
-
-  <!-- What we do -->
-  <div class= "container header" >
-   <div class="text-center">
-    <div class="wedo">
-      <h1><%= t "homes.title"%></h1>
-      <p><%= t "homes.description"%></p>
-      <p><%= t "homes.description2"%></p>
-      <h1>  <%= image_tag "Webxy.png", height: 50 %> </h1>
-    </div>
-  </div>
+  <div class="bg__bazz">bazz</div>
+</div>
+<div>
+  <div class="titleweare">
+    <h1>Hello, We are Websy </h1>
+ </div>
+  <button type="button" class="btn btn-primary text-center" data-toggle="modal" data-target="#basicExampleModal">
+     Get your website!
+   </button>
+</div>
 </div>
 
-<!-- How we work -->
+<%= render "shared/modal" %>
 
-<!-- Inspired by Codyhouse -->
-<section>
-  <div class="container-fluid experience" style="margin-bottom: 100px;">
-    <div class="row">
-      <div class="col-md-12">
-        <h2 class="titlesauce" style="margin:0px 0px 100px 240px;">HOW WE WORK</h2>
-        <section class="cd-horizontal-timeline container">
-          <div class="timeline">
-           <div class="events-wrapper">
-            <div class="events">
-              <ol>
-                <li><a href="#0" data-date="01/05/2015" class="selected"><%= inline_svg "idea.svg", class: 'some-class' %></a></li>
-                <li><a href="#0" data-date="01/03/2014"><%= inline_svg "create.svg", class: 'some-class' %></a></li>
-                <li><a href="#0" data-date="01/02/2013"><%= inline_svg "test.svg", class: 'some-class' %></a></li>
-                <li><a href="#0" data-date="01/02/2012"><%= inline_svg "build.svg", class: 'some-class' %></a></li>
-                <li><a href="#0" data-date="01/02/2011"><%= inline_svg "grow.svg", class: 'some-class' %></a></li>
-              </ol>
+<!-- What we do -->
+<div class= "container header" >
+ <div class="text-center">
+  <div class="wedo">
+    <h1><%= t "homes.title"%></h1>
+    <p><%= t "homes.description"%></p>
+    <p><%= t "homes.description2"%></p>
+    <h1>  <%= image_tag "Webxy.png", height: 50 %> </h1>
+  </div>
+</div>
+</div>
 
-              <span class="filling-line" aria-hidden="true"></span>
-            </div> <!-- .events -->
-          </div> <!-- .events-wrapper -->
-        </div> <!-- .timeline -->
+<%= render "shared/timeline" %>
 
-        <div class="events-content">
-          <ol>
-            <li class="selected" data-date="01/05/2015">
-              <h5>Imagine</h5>
-              <em>Purpose, Main Goals, and Target Audience</em>
-              <p>Responsible for the conception, development, implementation and monitoring of internal communication campaigns. Management, enhancement and monitoring of the company's Intranet and Moodle. Planning and management of events.</p>
-            </li>
-
-            <li data-date="01/03/2014">
-              <h5>Design</h5>
-              <em>Page Layouts, Review, and Approval Cycle</em>
-              <p>Responsible for the conception, development, implementation and monitoring of internal communication campaigns. Management, enhancement and monitoring of the company's Intranet and Moodle. Planning and management of events.</p>
-            </li>
-
-            <li data-date="01/02/2013">
-              <h5>Create</h5>
-              <em>Content Writing and Assembly</em>
-              <p>Creation and development of websites within the framework of Páginas Amarelas' online products (copywriting, implementation of SEO techniques and web design).</p>
-            </li>
-            <li data-date="01/02/2012">
-              <h5>Build</h5>
-              <em>Coding, Testing, Review and Launch</em>
-              <p>Creation and development of websites within the framework of Páginas Amarelas' online products (copywriting, implementation of SEO techniques and web design).</p>
-            </li>
-            <li data-date="01/02/2011">
-              <h5>Scale</h5>
-              <em>Maintenance: Opinion Monitoring and Regular Updating</em>
-              <p>Creation and development of websites within the framework of Páginas Amarelas' online products (copywriting, implementation of SEO techniques and web design).</p>
-            </li>
-
-          </ol>
-        </div> <!-- .events-content -->
-      </section>
-
-    </div> <!-- end div experience -->
-  </div> <!-- end row experience -->
-</div> <!-- end container experience -->
-</section>
-<!-- end work experience -->
-
-
-<!-- Our Clients -->
 
 <section class="parallax">
   <div class="bg__break">
-    <div class="capture">I... am very sorry. Is there anything I can do? I am on the board of this hospital. I can recommend doctors. Make sure he gets whatever he needs. The best treatment. How did that happen?</div>
   </div>
 </section>
 
 
 <%= render "shared/features" %>
 
-
-
-<!-- CONTACT US-->
-<div class="container">
-  <div class="contactus">
-    <h2> CONTACT US</h2>
-  </div>
-
-  <div class="separator">
-  </div>
-
-  <div class="paragraphcontact">
-    <p> We’d love to hear from you! Share your comments and questions,  we'll make sure we get back to you as soon as possible.</p>
-  </div>
-</div>
-
-<!--contact form-->
-<div class="container">
-  <div class="contactform">
-    <div class="contactFormWrapper">
-      <form>
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Name</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Brad Pitt">
-        </div>
-
-
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Bradpitt@gmail.com">
-        </div>
-
-
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Message</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="How u doin ;)" rows="3"></textarea>
-        </div>
-
-        <button id="form-send-button" data-i18n="contactUs.form.sendButton" class="section-btn form-btn" type="button">SEND</button>
-
-      </form>
-    </div>
-  </div>
-</div>
 
 <!-- Cliengo installation code for http://www.thewebsyco.com -->
 <script type="text/javascript">(function () {
@@ -170,16 +62,16 @@
 <script>
 
 
-jQuery(document).ready(function($) {
-  var timelines = $('.cd-horizontal-timeline'),
-  eventsMinDistance = 179;
+  jQuery(document).ready(function($) {
+    var timelines = $('.cd-horizontal-timeline'),
+    eventsMinDistance = 179;
 
-  (timelines.length > 0) && initTimeline(timelines);
+    (timelines.length > 0) && initTimeline(timelines);
 
-  function initTimeline(timelines) {
-    timelines.each(function() {
-      var timeline = $(this),
-      timelineComponents = {};
+    function initTimeline(timelines) {
+      timelines.each(function() {
+        var timeline = $(this),
+        timelineComponents = {};
       //cache timeline components
       timelineComponents['timelineWrapper'] = timeline.find('.events-wrapper');
       timelineComponents['eventsWrapper'] = timelineComponents['timelineWrapper'].children('.events');
@@ -236,9 +128,9 @@ jQuery(document).ready(function($) {
         }
       });
     });
-  }
+    }
 
-  function updateSlide(timelineComponents, timelineTotWidth, string) {
+    function updateSlide(timelineComponents, timelineTotWidth, string) {
     //retrieve translateX value of timelineComponents['eventsWrapper']
     var translateValue = getTranslateValue(timelineComponents['eventsWrapper']),
     wrapperWidth = Number(timelineComponents['timelineWrapper'].css('width').replace('px', ''));
@@ -439,49 +331,7 @@ function updateTimelinePosition(string, event, timelineComponents) {
 
 });</script>
 
+<%= render "shared/contact" %>
 
-<!-- CONTACT US-->
-<div class="container">
-        <div class="contactus">
-            <h2><%= t "homes.contactus"%></h2>
-        </div>
-        <div class="separator">
-        </div>
-        <div class="paragraphcontact">
-          <p><%= t "homes.wewould"%></p>
-        </div>
-    </div>
-
-
-<!--contact form-->
-<div class="container">
-  <div class="contactform">
-    <div class="contactFormWrapper">
-<form>
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Name</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Brad Pitt">
-  </div>
-
-
-    <div class="form-group">
-    <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Bradpitt@gmail.com">
-  </div>
-
-
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Message</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="How u doin ;)" rows="3"></textarea>
-  </div>
-
-  <button id="form-send-button" data-i18n="contactUs.form.sendButton" class="section-btn form-btn" type="button">SEND</button>
-
-</form>
-</div>
-</div>
-</div>
-
-<!-- footer -->
 
 <%= render "shared/footer" %>

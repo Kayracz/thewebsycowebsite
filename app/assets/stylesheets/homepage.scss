@@ -13,12 +13,12 @@
 }
 // }
 
-
+.textLeft{
+  text-align: left !important;
+}
 
 //FIRST TITLE
 .titleweare{
-  margin-bottom: 10px !important;
-
   body {
     background-color: #FF5A5A;
     height: 100%;
@@ -31,15 +31,16 @@
   }
 
   h1 {
-    font-size: 5em;
+    width: 100%;
+    height: 10%;
+    position:absolute;
+    bottom: 520px;
+    left:100px;
+    font-size: 7em;
     font-family: Helvetica;
     color: #0A1C58;
-    margin-bottom: 79px;
-    margin-top: 42px;
     font-weight: bold;
-    margin-left: 62px;
-    margin-right: 90px;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1.5px white;
   }
 }
 
