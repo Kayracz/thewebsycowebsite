@@ -9,8 +9,7 @@
   <div class="titleweare">
     <!-- <h2> We are </h2> -->
     <h1>Hello, We are Websy </h1>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLScbuYKkEh4F2JQUHVh-gF9f6xb0o3Izi4s-wowVfSdA37bvXw/viewform"class="btn btn-info" role="button">Get your website!</a>
-   </a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScbuYKkEh4F2JQUHVh-gF9f6xb0o3Izi4s-wowVfSdA37bvXw/viewform"class="btn btn-info" target="_blank" role="button">Get your website!</a>
   </div>
 </div>
 </div>
@@ -102,10 +101,17 @@
   <div class="titlesauce">
     <h2><%= t "homes.recipe"%></h2>
   </div>
+
   <div class="parent-container">
     <div class="content-slider">
       <div class="slider">
         <div class="mask">
+
+          <p><%= t "homes.recipe1"%></p>
+          <o><%= t "homes.recipe2"%></o>
+          <p><%= t "homes.recipe3"%></p>
+          <p><%= t "homes.recipe4"%></p>
+
             <!-- <li class="anim4">
               <div class="quote"><%= t "homes.recipe1"%></div>
             </li>
@@ -119,18 +125,9 @@
               <div class="quote"><%= t "homes.recipe4"%></div>
             </li> -->
 <div class="container content">
-<link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
-<h1>We
-  <span
-     class="txt-rotate"
-     data-period="2000"
-     data-rotate='[ "come to work with a smile :)", "stand for innovation and creativity", "turn ideas into products", "transform problems into solutions", "fun!" ]'></span>
-</h1>
-<!-- <h2>A single &lt;code&gt; is all you need.</h2>
- --></div>
+
 </div>
-
-
+</div>
       </div>
     </div>
   </div>
@@ -167,6 +164,9 @@
   var s = document.getElementsByTagName('script')[0];
   s.parentNode.insertBefore(ldk, s);
 })();</script>
+
+
+
 
 <script>jQuery(document).ready(function($) {
   var timelines = $('.cd-horizontal-timeline'),
@@ -458,7 +458,7 @@ function updateTimelinePosition(string, event, timelineComponents) {
 <form>
   <div class="form-group">
     <label for="exampleFormControlInput1">Name</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Brad pitt">
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Brad Pitt">
   </div>
 
 
@@ -470,7 +470,7 @@ function updateTimelinePosition(string, event, timelineComponents) {
 
   <div class="form-group">
     <label for="exampleFormControlTextarea1">Message</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="how u doin" rows="3"></textarea>
+    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="How u doin ;)" rows="3"></textarea>
   </div>
 
   <button id="form-send-button" data-i18n="contactUs.form.sendButton" class="section-btn form-btn" type="button">SEND</button>

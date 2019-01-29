@@ -887,6 +887,15 @@ main-title hidden {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+
+    font-family: bebas neue;
+    font-weight: bold;
+    font-size: 32px;
+
+    p{
+      font-size: 10px;
+      font-family: helvetica;
+    }
 }
 
 
@@ -897,7 +906,7 @@ main-title hidden {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
+  height: 204px !important;
   padding: 0px 50px;
   color: white !important;
   height: 186px;
