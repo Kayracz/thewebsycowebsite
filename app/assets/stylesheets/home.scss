@@ -5,9 +5,85 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.content{
+
+h1 {
+  font-family: Helvetica, Neue !important;
+  padding: 1em 2em;
+  font-size: 18px;
+  background: #0A1C58;
+  color: white;
+  font-weight:bold;
+  border-radius: 10px;
+}
+
+h1,h2 {
+  // font-weight: lighter;
+  margin: 0.4em 0;
+}
+h1 { font-size: 24px; }
+h2 {
+  color: #888;
+  font-size: 2em;
+}
+}
+
+
+
+//
+
+
+
+.contactus{
+ font-size: 38px;
+    font-family: Helvetica, Neue !important;
+    font-weight: bold !important;
+    color: #0A1C58;
+    font-weight: bold !important;
+    h2{
+    font-size: 38px;
+    font-family: Helvetica, Neue !important;
+    font-weight: bold !important;
+    color: #0A1C58;
+    font-weight: bold !important;
+    text-align: center;
+}
+}
+
+.paragraphcontact{
+font-size: 24px !important;
+    margin: 35px;
+    font-weight: lighter !important;
+    font-family: Helvetica, Neue !important;
+    line-height: 34px;
+    text-align: center !important;
+}
+
+.contactFormWrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 35px 50px;
+        max-width: 960px;
+    margin: auto;
+}
+
+.contactform{
+    position: relative;
+    background: white;
+    padding: 10% 10% 0 10%;
+    margin-top: 5%;
+    z-index: 5;
+
+        -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
+  }
+
 
 .secretrecipe{
-      background-color: white;
+          background-color: white;
+    box-shadow: skyblue;
+    box-shadow: 7px 0px 7px 1px lightgrey;
 }
 
 .titlesauce{
@@ -509,13 +585,10 @@ h4 {
     transition: opacity 1s, transform 1s;
   }
 
-.secret-sauce-phrase.green {
-    color: #A5CD39;
-}
 
 .secret-sauce-phrase {
     color: #00ADEE;
-    font-size: 36px;
+    font-size: 35px;
     line-height: 44px;
     max-width: 18%;
     opacity: 0;
@@ -540,7 +613,10 @@ h4 {
     margin-bottom: 36px !important;
     width: 500px;
     margin: -137px 0px 0px 543px;
-  border: 20px solid #021a40;
+  border: 5px solid #021a40;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
 
     img{
     margin: -3%;
