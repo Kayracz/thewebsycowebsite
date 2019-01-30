@@ -24,10 +24,19 @@
 
 }
 
-.experience h5 {
-  color: #008080;
+.selected{
+  color: #0A1C58 !important;
+}
+
+
+.experience h5{
+  color: #0A1C58;
   font-size: 22px;
   text-transform: uppercase;
+
+  em {
+    color: #0A1C58 !important;
+  }
 }
 
 .experience ol,
@@ -122,7 +131,7 @@
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #008080;
+  background-color: #0A1C58;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
   -ms-transform: scaleX(0);
@@ -145,7 +154,7 @@
   text-align: center;
   font-size: 1.3rem;
   padding-bottom: 15px;
-  color: #007976;
+  color: #0A1C58;
   /* fix bug on Safari - text flickering while timeline translates */
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -170,15 +179,15 @@
   width: 12px;
   border-radius: 50%;
   border: 2px solid #dfdfdf;
-  background-color: #007976;
+  background-color: #0A1C58;
   -webkit-transition: background-color 0.3s, border-color 0.3s;
   -moz-transition: background-color 0.3s, border-color 0.3s;
   transition: background-color 0.3s, border-color 0.3s;
 }
 
 .no-touch .cd-horizontal-timeline .events a:hover::after {
-  background-color: #008080;
-  border-color: #008080;
+  background-color: #0A1C58;
+  border-color: #0A1C58;
 }
 
 .cd-horizontal-timeline .events a.selected {
@@ -186,12 +195,12 @@
 }
 
 .cd-horizontal-timeline .events a.selected::after {
-  background-color: #008080;
-  border-color: #008080;
+  background-color: #0A1C58;
+  border-color: #0A1C58;
 }
 
 .cd-horizontal-timeline .events a.older-event::after {
-  border-color: #008080;
+  border-color: #0A1C58;
 }
 
 @media only screen and (min-width: 1100px) {
@@ -350,7 +359,7 @@
   font-style: italic;
   margin: 10px auto;
   font-size: 16px;
-  color: #007976;
+  color: #0A1C58;
 }
 
 .cd-horizontal-timeline .events-content p {
