@@ -6,10 +6,26 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+
+
+
 @import "timeline";
 @import "homepage";
 @import "copyright";
 
+
+
+.footer-overabout{
+background-color: #0A1C58;
+    display: flex;
+    width: 135.1%;
+    align-items: center;
+    justify-content: space-between;
+    height: 186px !important;
+    padding: 0px 50px;
+    color: #0A1C58 !important;
+    margin: -16% -144px -71px -192px;
+  }
 
 .lettercolor{
 color: #008080;
@@ -93,16 +109,19 @@ font-size: 24px !important;
 }
 
 .contactform{
-    position: relative;
+ position: relative;
     background: white;
-    padding: 10% 10% 0 10%;
     margin-top: 5%;
+    padding-bottom: 40px;
+    padding-top: 42px;
     z-index: 5;
-
         -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
     -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
   }
+
+
+
 
 
 .secretrecipe{
@@ -892,7 +911,7 @@ main-title hidden {
 
 
 .footer-about {
-        width: 18%;
+    width: 18%;
     line-height: 24px;
 
     display: flex;
@@ -907,7 +926,13 @@ main-title hidden {
       font-size: 10px;
       font-family: helvetica;
       margin-left: 15px;
+      margin-bottom:10px;
     }
+
+    img{
+          margin-top: 30px;
+    margin-bottom: 2px;
+}
 }
 
 
