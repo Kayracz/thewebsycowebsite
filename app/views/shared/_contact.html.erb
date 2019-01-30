@@ -17,23 +17,23 @@
     <div class="contactFormWrapper">
       <form>
         <div class="form-group">
-          <label for="exampleFormControlInput1">Name</label>
+          <label for="exampleFormControlInput1"><%= t "homes.name"%></label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Brad Pitt">
         </div>
 
 
         <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
+          <label for="exampleFormControlInput1"><%= t "homes.email"%></label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Bradpitt@gmail.com">
         </div>
 
 
         <div class="form-group">
-          <label for="exampleFormControlTextarea1">Message</label>
+          <label for="exampleFormControlTextarea1"><%= t "homes.message"%></label>
           <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="How u doin ;)" rows="3"></textarea>
         </div>
 
-        <button id="form-send-button" data-i18n="contactUs.form.sendButton" class="section-btn form-btn" type="button">SEND</button>
+        <button id="form-send-button" data-i18n="contactUs.form.sendButton" class="section-btn form-btn" type="button"><%= t "homes.send"%></button>
 
       </form>
     </div>
