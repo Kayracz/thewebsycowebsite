@@ -1,4 +1,12 @@
 
+.separator{
+    width: 45px;
+    height: 8px;
+    background: #0A1C58;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
 /*/ start about work experience /*/
 .some-class {
   display: block;
@@ -8,8 +16,8 @@
 .some-class1 {
   display: block;
   margin: 0 auto;
-  width: 4em;
-  margin-bottom:5px;
+  width: 5em;
+  margin-bottom:10px;
 }
 
 .experience h4 {
@@ -19,7 +27,6 @@
 .experience {
   margin-top: 5%;
   width: 100%;
-  /* background-color: #3b8472;*/
   height: auto;
 
 }
@@ -98,6 +105,7 @@
   margin: 0 !important;
   padding: 0 !important;
   overflow: hidden;
+  margin-bottom:10px;
 }
 
 .cd-horizontal-timeline .events-wrapper::after,
