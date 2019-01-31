@@ -1,35 +1,38 @@
-<!-- Section: Features v.2 -->
-
-
   <!-- Section heading -->
-  <h2 class="h1-responsive text-center titlesauce"><%= t "homes.service"%></h2>
-  <!-- Section description -->
 
+<div class="container servicetable">
+  </br>
+  <h2 class="text-center titlesauce"><%= t "homes.service"%></h2>
+  <!-- Section description -->
+</br>
   <h5 class="text-center lettercolor"><%= t "homes.service1"%></h5>
   <p class="lettercolor2 text-center"><%= t "homes.service2"%></p>
+</br>
 
-<div class="container servicecard">
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <%= inline_svg "design.svg", class: 'some-class1' %>
+
+
+  <div class="services-grid">
+
+    <div class="service service1">
+      <i class="ti-bar-chart"></i>
+      <h1>  <%= image_tag "service2.png", height: 50 %> </h1>
       <h4><%= t "homes.service3"%></h4>
-      <h4><%= t "homes.service4"%></h4>
+      <p><%= t "homes.service4"%></p>
     </div>
-  </div>
-  <div class="column">
-    <div class="card">
-        <%= inline_svg "ecommerce.svg", class: 'some-class1' %>
+
+    <div class="service service2">
+      <i class="ti-light-bulb"></i>
+      <h1>  <%= image_tag "service1.png", height: 50 %> </h1>
       <h4><%= t "homes.service5"%></h4>
-      <h4><%= t "homes.service6"%></h4>
+      <p><%= t "homes.service6"%></p>
+    </div>
+
+    <div class="service service3">
+      <i class="ti-money"></i>
+      <h1>  <%= image_tag "service3.png", height: 50 %> </h1>
+      <h4><%= t "homes.service7"%></h4>
+      <p><%= t "homes.service8"%></p>
     </div>
   </div>
-  <div class="column">
-    <div class="card">
-        <%= inline_svg "support.svg", class: 'some-class1' %>
-      <h4><%= t "homes.service7"%></h4>
-      <h4><%= t "homes.service8"%></h4>
-  </div>
-</div>
-</div>
+
 </div>
