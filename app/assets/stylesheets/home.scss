@@ -4,9 +4,9 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
-
-
+.buttonemail a {
+    color: white !important;
+  }
 
 
 @import "timeline";
@@ -56,7 +56,7 @@
   background-color: transparent ;
   padding:20px 100px;
   border-radius:35px;
-  color: #0A1C58;
+  color: #0A1C58 !important;
   border:3px solid #0A1C58;
   font-size:1.3em;
   letter-spacing: 2px;
@@ -125,6 +125,11 @@ h2 {
   background-color: #fff !important;
   transition: background-color 200ms linear;
 }
+
+
+
+
+
 
 //
 
@@ -835,7 +840,6 @@ h1 {
   background: transparent !important;
   color: black !important;
 }
-
 
 
 

@@ -17,7 +17,7 @@
     <div class="contactFormWrapper">
       <form>
         <div class="form-group">
-          <label for="exampleFormControlInput1"><%= t "homes.name"%></label>
+         <!--  <label for="exampleFormControlInput1"><%= t "homes.name"%></label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Brad Pitt">
         </div>
 
@@ -32,16 +32,15 @@
           <label for="exampleFormControlTextarea1"><%= t "homes.message"%></label>
           <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="How u doin ;)" rows="3"></textarea>
         </div>
-
-        <div class="text-center">
-          <button id="form-send-button" data-i18n="contactUs.form.sendButton" class="section-btn form-btn buttonscontact" type="button"><%= t "homes.send"%></button>
+ -->
+        </div>
+        <div class="text-center buttonemail">
+          <button id="form-send-button" data-i18n="contactUs.form.sendButton" class="section-btn form-btn buttonscontact" type="button"><%= link_to 'EMAIL US', new_contact_path %></button>
         </div>
 
         <form action="kayracz@gmail.com" method="post" enctype="text/plain"></button>
-
-
       </form>
     </div>
-  </div>
+</div>
 </div>
 

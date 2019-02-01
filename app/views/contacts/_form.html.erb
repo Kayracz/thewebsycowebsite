@@ -1,0 +1,22 @@
+
+<div class="container">
+<%= simple_form_for(@contact) do |f| %>
+  <%= f.error_notification %>
+  <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
+
+<!-- <div class="col-xs-12 col-sm-4 col-sm-offset-4"> -->
+
+ <div class="form-inputs">
+    <%= f.input :title, placeholder: "Please write your name and subject here (ex: Brad Pitt)"  %>
+    <%= f.input :email, placeholder: "BradPitt@gmail.com" %>
+    <%= f.input :body, placeholder: "How u doin ;)"  %>
+
+  <div class="form-actions">
+    <input type="submit" name="commit" value="Message Us" class="btn center-align" data-disable-with="Create Contact">
+  <!--   <%= f.button :submit %> -->
+<% end %>
+  </div>
+  </div>
+</div>
+</div>
+</div>
