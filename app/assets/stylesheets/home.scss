@@ -4,6 +4,10 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+
 .buttonemail a {
     color: white !important;
   }
@@ -19,6 +23,8 @@
     padding-bottom: 120px !important;
 }
 
+
+
 .buttonscontact{
   background-color: #0A1C58;
   padding:20px 100px;
@@ -27,6 +33,7 @@
   font-size:1.5em;
   letter-spacing: 2px;
   margin-top:20px;
+
 }
 
 .buttonscontact:hover{
@@ -52,12 +59,14 @@
   left:40%;
 }
 
+
+
 .buttonsaction:hover{
   background-color: transparent ;
   padding:20px 100px;
   border-radius:35px;
-  color: #0A1C58 !important;
-  border:3px solid #0A1C58;
+  color: white !important;
+  border:3px solid white;
   font-size:1.3em;
   letter-spacing: 2px;
 }
@@ -123,15 +132,9 @@ h2 {
 //navbar
 .navbar-fixed-top.scrolled {
   background-color: #fff !important;
-  transition: background-color 200ms linear;
+  transition: background-color 200ms linear !important;
 }
 
-
-
-
-
-
-//
 
 
 
@@ -790,6 +793,8 @@ h1 {
   width: 100%;
 }
 
+
+
 .dropdown-toggle{
   font-size:15px;
   text-decoration: none !important;
@@ -926,8 +931,8 @@ main-title hidden {
   line-height: 24px;
 
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  // flex-direction: column;
+  // justify-content: space-around;
 
 
     // font-weight: bold;
@@ -954,11 +959,11 @@ main-title hidden {
 /* Footer */
 
 .footer {
-      background: #0A1C58;
+    background: #0A1C58;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 131% !important;
+    height: 100% !important;
     width: 106%;
     padding: 0px 50px;
     color: white !important;
@@ -972,13 +977,14 @@ main-title hidden {
   text-decoration: none;
   font-size: 24px;
   padding: 0px 10px;
+  opacity: 0.8;
 }
 .footer-links a:hover {
-  opacity: 0.9;
+  opacity: 1;
 }
 
 .footer-copyright{
-  font-size: 12px;
+  font-size: 10px;
 }
 
 @media only screen and (max-width: 768px) {
