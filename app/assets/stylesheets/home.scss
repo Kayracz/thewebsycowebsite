@@ -74,14 +74,14 @@
 
 
 .footer-overabout{
-    background-color: #0A1C58;
-    display: flex;
-    width: 144.1%;
-    align-items: center;
-    height: 251px !important;
-    padding: 0px 50px;
-    color: #0A1C58 !important;
-    margin: -18% 0px 0px -196px;
+  height: 251px !important;
+  background: #0A1C58;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
 }
 
 .lettercolor{
@@ -173,6 +173,7 @@ h2 {
 
 .contactform{
  position: relative;
+     margin-bottom: -164px;
  background: white;
  margin-top: 5%;
  padding-bottom: 40px;
@@ -930,17 +931,11 @@ main-title hidden {
 .footer-about {
   width: 18%;
   line-height: 24px;
-
-  display: flex;
   // flex-direction: column;
-  // justify-content: space-around;
-
-
-    // font-weight: bold;
 
 
     p{
-      font-size: 10px;
+      font-size: 10.5px;
       font-family: helvetica;
       margin-left: 15px;
           height: 79px;
