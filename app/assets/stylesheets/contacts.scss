@@ -15,7 +15,7 @@
     color: #0A1C58;
     font-size: Helvetica Neue !important;
     font-weight: bold !important;
-    margin-top:10%;
+    margin-top: 17%;
 
 
     h2{
@@ -43,13 +43,19 @@
   .btn {
     // width: 100%;
     margin-bottom: 20px;
-    width:100%;
     align-items:center !important;
     color: #0A1C58;
     border-color: #0A1C58;
     font-family: Helvetica Neue !important;
     font-weight:bold;
-  }
+    margin-top: 25px;
+    margin-left: 45%;
+}
+}
+
+.input.btn{
+    margin-top: 25px;
+    margin-left: 45%;
 }
 
 .theform{
