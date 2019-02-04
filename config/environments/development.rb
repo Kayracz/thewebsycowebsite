@@ -73,3 +73,4 @@ Rails.application.configure do
     password: "Lewagon123"
   }
 end
+
