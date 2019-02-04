@@ -15,10 +15,10 @@ en:
    email: "Email"
    message: "Message"
    send: "EMAIL US"
-   websyis: "Websy is a digital consulting firm focused on helping enterprises to seize technology in order to get more clients, improve efficiency and build innovative products."
+   websyis: "Websy is a digital consulting company that focuses on helping businesses leverage technology to get more clients, improve efficiency and create innovative products.."
    how: "HOW WE WORK"
    imagine: "Imagine"
-   imagine2: "Understanding Client’s Needs: Purpose, Main Goals, and Target Audience"
+   imagine2: "Understanding Client’s Needs"
    imagine3: "Identifying and understanding what exactly the clients want helps in providing the perfect solution they are looking for. Setting goals for the website and defining target audience. "
    design: "Design"
    design1: "Page Layouts, Review, and Approval Cycle"
@@ -42,5 +42,9 @@ en:
    service7: "Maintenance Plan"
    service8: "We provide thorough inspections and resolve problems with the site on a monthly basis."
    email1: "EMAIL US"
+   messageconfirmation: "Message Confirmation"
+   message2: "Thank you! we will get back to you soon :) "
+   enviar: "Enviar"
+   enviando: "Sending message..."
 
 

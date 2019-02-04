@@ -8,6 +8,7 @@
 }
      margin-left: 35% !important;
     margin-bottom: -10% !important;
+    margin-top: 10% !important;
 }
 
 .copyright-text {
@@ -28,11 +29,77 @@ p{
   a {
     color: white;
     text-decoration: none;
-        margin-right: 74px;
+        margin-right: 84px;
   }
 }
 
 .footer-copyright  a:hover {
     color: papayawhip;
     text-decoration: none;
+}
+
+@media screen and (max-width: 1184px){
+.contactform {
+    margin: 5% 5% 0 5%;
+}
+
+.buttonscontact {
+      padding: 20px 51px !important;
+}
+.footer-links a {
+    color: white !important;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 3px 14px;
+    margin-bottom: -250px;
+    margin-left: 7px !important;
+}
+.footer-about img {
+    margin-top: 31px !important;
+    margin-bottom: 2px !important;
+    margin-left: 39px !important;
+}
+.footer-about p {
+    font-size: 10.5px ;
+    font-family: helvetica;
+    margin-left: 53px !important;
+    height: 79px;
+    margin-bottom: 138px;
+    width: 191px;
+}
+
+.footer-copyright a {
+ display: none;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    margin-left: -80px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: white !important;
+}
+.navbar-wagon{
+  background-color: white !important;
+
+  a {
+    color: #0A1C58 !important;
+    font-weight: 100 !important;
+}
+}
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-wagon{
+    background-color: white;
+  }
+  .messagetitle2 {
+    margin-top: 49%;
+    color: #0A1C58;
+    text-align: center;
+}
 }

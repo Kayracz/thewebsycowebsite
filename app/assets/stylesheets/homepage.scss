@@ -31,16 +31,23 @@
   }
 
   h1 {
-     width: 100%;
+    width: 100%;
     height: 0%;
     position: absolute;
-    bottom: 448px;
-    left: 110px;
+    bottom: 355px;
+    left: -16px;
     font-size: 75px;
-    font-family: Helvetica;
+    font-family: Helvetica Neue;
+    font-weight: bold;
     color: midnightblue;
     font-weight: bold;
-    -webkit-text-stroke: 0.5px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px 0px 8px rgba(0, 0, 0, 0.6);
+
   }
 }
 
@@ -55,13 +62,16 @@
 
 @media only screen and (max-width: 768px) {
   .titleweare h1 {
-    font-size: 20px;
+    // font-size: 20px;
+    font-size: 36.1px;
+    left: 2px;
   }
 }
 
 @media only screen and (max-width: 320px) {
   .titleweare h1 {
-    font-size: 10px;
+    font-size: 36.1px;
+    left: 13px;
   }
 }
 
@@ -98,6 +108,10 @@
     left: 0;
     z-index: 10;
     width: 100%;
+
+    a{
+font-weight: 150 !important;
+    }
 }
 
 .dropdown-toggle{
@@ -259,5 +273,121 @@ main-title hidden {
 }
 }
 
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+  #howwework{
+    display:none;
+  }
+  .shrinked{
+    display: block;
+    ol{
+      list-style: none;
+    }
+    li{
+    padding-right: 30px;
+    margin-bottom: 30px;
+    }
+    h2{
+    text-align: center;
+    color: #0A1B58;
+    font-family: helvetica Neue !important;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    font-weight: bold;
+    }
+    h4{
+      color: #0A1B58;
+      font-weight:bold;
+    }
+    h6{
+     font-size: 15px;
+    font-weight: 500;
+    color: #0A1B58;
+    line-height: 21px;
+    }
+
+    p{
+    margin-top: 15px;
+    text-align: justify;
+    font-weight: lighter !important;
+    font-family: Helvetica, Neue !important;
+    margin-bottom: 52px;
+
+    }
+  }
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+#howwework{
+    display:none;
+  }
+  .shrinked{
+    display: block;
+    ol{
+      list-style: none;
+    }
+    li{
+    padding-right: 30px;
+    margin-bottom: 30px;
+    }
+    h2{
+    text-align: center;
+    color: #0A1B58;
+    margin-bottom: 60px;
+    margin-top: 60px;
+
+    }
+  }
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+#howwework{
+    display:none;
+  }
+  .shrinked{
+    display: block;
+    ol{
+      list-style: none;
+    }
+    li{
+    padding-right: 30px;
+    margin-bottom: 30px;
+    }
+    h2{
+    text-align: center;
+    color: #0A1B58;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    }
+  }
+
+}
 
 
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+  .shrinked{
+    display:none;
+  }
+#howwework{
+    display:block;
+  }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .navbar-wagon a {
+    color: midnightblue !important;
+    font-weight: 150 !important;
+}
+  .messagetitle h2 {
+    margin-top: 135px !important;
+
+  }
+
+
+
+}

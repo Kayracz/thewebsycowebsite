@@ -42,5 +42,9 @@ es:
    service7: "Soporte"
    service8: "Proporcionamos inspecciones rigurosas y resolvemos problemas con el sitio mensualmente."
    email1: "ENVIANOS UN MENSAJE"
+   messageconfirmation: "Confirmación de mensaje"
+   message2: "¡Gracias! Nos pondremos en contacto con usted lo antes posible :)"
+   enviar: "Send"
+   enviando: "Enviando..."
 
 
