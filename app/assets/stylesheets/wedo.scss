@@ -1,0 +1,55 @@
+
+
+//WHAT WE DO PART
+
+.wedo {
+  position: relative;
+  padding-top: 30px;
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+  text-align: center;
+  display: inline-block;
+  text-shadow: 4px 0px 9px white;
+
+  h1{
+    font-size: 38px;
+    font-family: Helvetica, Neue !important;
+    font-weight: bold !important;
+    color: #0A1C58;
+  }
+
+  p{
+    font-size: 24px !important;
+    margin: 35px;
+    font-weight: lighter !important;
+    font-family: Helvetica, Neue !important;
+    line-height: 34px;
+    text-align: center !important;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .wedo h1 {
+    font-size: 31px;
+    font-weight: bold !important;
+}
+  }
+
+
+  .wedo p{
+    font-size: 19px !important;
+  }
+
+@media only screen and (max-width: 320px) {
+  .wedo h1 {
+
+  }
+}
+
+
+@media only screen and (max-width: 320px) {
+  .wedo h1 {
+
+  }
+}

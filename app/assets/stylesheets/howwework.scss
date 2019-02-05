@@ -1,0 +1,162 @@
+#howwework {
+  // padding-top: 30px !important;
+  // padding-bottom: 120px !important;
+
+  h2{
+    font-size: 38px;
+    font-family: Helvetica, Neue !important;
+    font-weight: bold !important;
+    color: #0A1C58;
+  }
+}
+
+
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+  #howwework{
+    display:none;
+  }
+
+  .howweworkcards{
+    background: #fff;
+    margin: 44px !important;
+    margin-left: 8px !important;
+    padding: 16px;
+    border-radius: 4px;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #e7e7e7;
+    transition: all 0.3s ease;
+  }
+  .shrinked{
+    display: block;
+    ol{
+      list-style: none;
+    }
+    li{
+    // padding-right: 30px;
+    // margin-bottom: 30px;
+  }
+    h2{
+    text-align: center;
+    color: #0A1B58;
+    font-family: helvetica Neue !important;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    font-weight: bold;
+    }
+    h4{
+      color: #0A1B58;
+      font-weight:bold;
+    }
+    h6{
+     font-size: 15px;
+    font-weight: 500;
+    color: #0A1B58;
+    line-height: 21px;
+    }
+
+    p{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: lighter !important;
+    font-family: Helvetica, Neue !important;
+    margin-bottom: 52px;
+
+    }
+  }
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+#howwework{
+    display:none;
+  }
+  .shrinked{
+    display: block;
+    ol{
+      list-style: none;
+    }
+    li{
+    // padding-right: 30px;
+    // margin-bottom: 30px;
+    text-align: center;
+        // padding: 1% 28% 1% 22%;
+    }
+    h2{
+    text-align: center;
+    color: #0A1B58;
+    margin-bottom: 60px;
+    margin-top: 60px;
+
+    }
+  }
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+#howwework{
+    display:none;
+  }
+  .shrinked{
+    display: block;
+    ol{
+      list-style: none;
+    }
+    li{
+    // padding-right: 30px;
+    // margin-bottom: 30px;
+    }
+    h2{
+    text-align: center;
+    color: #0A1B58;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    }
+  }
+
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+  .shrinked{
+    display:none;
+  }
+#howwework{
+    display:block;
+  }
+}
+
+
+.howweworkcards {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #e7e7e7;
+    transition: all 0.3s ease;
+}
+
+.howweworkcards1 i,
+.howweworkcards1 h4,
+.howweworkcards1 .cta {
+  color: #0A1C58;
+}
+
+.howweworkcards:hover {
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+}
+
+.howweworkcards1:hover {
+  border: 3px solid #0A1C58;
+}

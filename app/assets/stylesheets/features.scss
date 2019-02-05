@@ -44,6 +44,13 @@
   transition: all 0.3s ease;
 }
 
+.titlesauce{
+    font-size: 38px;
+    font-family: Helvetica, Neue !important;
+    font-weight: bold !important;
+    color: #0A1C58;
+}
+
 .service:hover {
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
   -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
@@ -108,3 +115,66 @@
 }
 
 
+@media only screen and (min-width: 300px){
+.titlesauce {
+font-size: 31px;
+    font-weight: bold !important;
+  }
+
+.lettercolor2 {
+  font-size: 19px !important;
+}
+}
+
+@media only screen and (max-width: 768px){
+.lettercolor2 {
+  font-size: 19px !important;
+}
+}
+
+
+
+
+.lettercolor{
+    font-size: 22px;
+    color: #0A1C58;
+    margin-bottom: 10px;
+    font-family: Helvetica, Neue !important;
+
+}
+
+.lettercolor2{
+    font-size: 21px;
+    margin-bottom: 10px;
+    font-weight: lighter !important;
+    font-family: Helvetica, Neue !important;
+}
+
+.letterem{
+  color: #0A1C58;
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.content{
+
+  h1 {
+    font-family: Helvetica, Neue !important;
+    padding: 1em 2em;
+    font-size: 18px;
+    background: #0A1C58;
+    color: white;
+    font-weight:bold;
+    border-radius: 10px;
+  }
+
+  h1,h2 {
+  margin: 0.4em 0;
+}
+h1 { font-size: 24px; }
+h2 {
+  color: #888;
+  font-size: 2em;
+}
+}

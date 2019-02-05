@@ -61,3 +61,156 @@
 .theform{
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
 }
+
+
+
+.contactus{
+ font-size: 38px;
+ font-family: Helvetica, Neue !important;
+ font-weight: bold !important;
+ color: #0A1C58;
+ font-weight: bold !important;
+ h2{
+  font-size: 38px;
+  font-family: Helvetica, Neue !important;
+  font-weight: bold !important;
+  color: #0A1C58;
+  font-weight: bold !important;
+  text-align: center;
+}
+}
+
+
+
+.paragraphcontact{
+  font-size: 24px !important;
+  margin: 35px;
+  font-weight: lighter !important;
+  font-family: Helvetica, Neue !important;
+  line-height: 34px;
+  text-align: center !important;
+}
+
+.contactFormWrapper{
+  display: flex;
+  flex-direction: column;
+  padding: 35px 50px;
+  max-width: 960px;
+  margin: auto;
+}
+
+.contactform{
+ position: relative;
+     margin-bottom: -164px;
+ background: white;
+ margin-top: 5%;
+ padding-bottom: 40px;
+ padding-top: 42px;
+ z-index: 5;
+ -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
+ -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
+ box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
+}
+
+
+@media only screen and (max-width: 768px){
+    .paragraphcontact{
+    margin-top: 19px;
+    text-align: center;
+    font-weight: lighter !important;
+    font-family: Helvetica, Neue !important;
+    margin-bottom: 52px;
+  }
+.contactFormWrapper{
+  display: flex;
+  flex-direction: column;
+  padding: 35px 50px;
+  max-width: 960px;
+  margin: auto;
+}
+
+.paragraphcontact{
+  font-size: 15px !important;
+  margin: 35px;
+  font-weight: lighter !important;
+  font-family: Helvetica, Neue !important;
+  line-height: 34px;
+  text-align: center !important;
+}
+.contactform{
+ position: relative;
+     margin-bottom: -164px;
+ background: white;
+ margin-top: 5%;
+ padding-bottom: 40px;
+ padding-top: 42px;
+ z-index: 5;
+ -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
+ -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
+ box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
+}
+
+}
+
+
+@media only screen and (min-width: 300px){
+.contactus {
+h2{
+    font-size: 31px;
+    font-weight: bold !important;
+}
+}
+
+.paragraphcontact{
+p{
+      font-size: 19px !important;
+    }
+}
+}
+
+
+
+@media only screen and (max-width: 1184px){
+//     .paragraphcontact{
+//     margin-top: 15px;
+//     text-align: center;
+//     font-weight: lighter !important;
+//     font-family: Helvetica, Neue !important;
+//     margin-bottom: 52px;
+//   }
+// .contactFormWrapper{
+//   display: flex;
+//   flex-direction: column;
+//   padding: 35px 50px;
+//   max-width: 960px;
+//   margin: auto;
+// }
+
+// .paragraphcontact{
+//   p{
+//       font-size: 15px;
+//     margin: 38px;
+//     margin-left: 54px;
+//     margin-right: 129px;
+// }
+// }
+// .contactform{
+//  position: relative;
+//      margin-bottom: -164px;
+//  background: white;
+//  margin-top: 5%;
+//  // padding-bottom: 40px;
+//  // padding-top: 42px;
+//  z-index: 5;
+//  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
+//  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
+//  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
+// }
+
+// .contactus{
+//   h2{
+//         // margin-left: -10%;
+//   }
+// }
+
+}
