@@ -45,8 +45,19 @@
     align-items: center;
     font-weight: bold;
     color: white;
-    text-shadow: -1px 0px 8px rgba(0, 0, 0, 0.6);
 
+text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #0A1C57,
+               0 3px 0 #0A1C57,
+               0 4px 0 #0A1C57,
+               0 5px 0 #0A1C57,
+               0 6px 1px #0A1C57,
+               0 0 5px #0A1C57,
+               0 1px 3px #0A1C57,
+               0 3px 5px #0A1C57,
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
   }
 }
 
