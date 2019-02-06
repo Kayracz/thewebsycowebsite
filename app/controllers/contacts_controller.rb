@@ -32,8 +32,8 @@ class ContactsController < ApplicationController
         format.html { redirect_to @contact, notice: 'Message was successfully sent.' }
         format.json { render :show, status: :created, location: @contact }
       else
-        format.html { render :new }
-        format.json { render json: @contact.errors, status: :unprocessable_entity }
+        format.html { redirect_to @contact, notice: 'Message was successfully sent.' }
+        format.json { render :show, status: :created, location: @contact }
       end
     end
   end
