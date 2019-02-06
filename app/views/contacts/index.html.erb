@@ -1,39 +1,4 @@
-
-<div class="container">
-  <div class="messagetitle">
-<h2>Messages</h2>
-</div>
-
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Body</th>
-      <th>Email</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @contacts.each do |contact| %>
-      <tr>
-        <td><%= contact.title %></td>
-        <td><%= contact.body %></td>
-        <td><%= contact.email %></td>
-        <td><%= link_to 'Show', contact %></td>
-        <td><%= link_to 'Edit', edit_contact_path(contact) %></td>
-        <td><%= link_to 'Destroy', contact, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Message', home_contact_path %>
-</div>
-
-<!-- <div class="navbar-wagon2 navbar-fixed-top">
+<div class="navbar-wagon2 navbar-fixed-top">
   <%= link_to root_path, class: "navbar-wagon-brand" do %>
   <%= image_tag "logopng.png", height: 50 %>
   <%= image_tag "navbarlogo.png", height: 40 %>
@@ -57,9 +22,40 @@
 </div>
 
 <div class="container">
+  <div class="messagetitle">
+<h2>Messages</h2>
+</div>
 
-<h2> IF YOU CAN IMAGINE IT, WE CAN DEVELOP IT</h2>
 
-<button type="button" class="btn btn-light">Light</button>
-</div> -->
+<table class="container">
+  <table class="table table-striped">
+
+  <thead>
+    <tr>
+      <th></th>
+      <th>Name</th>
+      <th>Message</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @contacts.each do |contact| %>
+    <tr>
+      <th scope="row"></th>
+       <td><%= contact.title %></td>
+        <td><%= contact.body %></td>
+        <td><%= contact.email %></td>
+        <td><%= link_to 'Show', contact %></td>
+        <td><%= link_to 'Edit', edit_contact_path(contact) %></td>
+        <td><%= link_to 'Destroy', contact, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
+  </tbody>
+</table>
+</div>
+<br>
+</div>
 
