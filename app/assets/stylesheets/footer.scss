@@ -62,10 +62,10 @@
     color: white !important;
   }
 
-  .footer-links {
-    margin-top: -222px !important;
-    margin-left: -212px;
-  }
+  // .footer-links {
+  //   margin-top: -222px !important;
+  //   margin-left: -212px;
+  // }
 
 .footer-copyright{
   color:white;
@@ -81,18 +81,26 @@
         margin-left: 69px !important;
 }
 
- .footer-links {
-    margin-top: -222px !important;
-    margin-left: -212px;
-    display: none;
-  }
-
 .footer-copyright {
  margin-top: 31px !important;
     margin-bottom: 2px !important;
     margin-left: 36px !important;
     color:white;
-    display: none;
+}
+}
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+  /* some CSS here */
+.footer-about img {
+    margin-top: -120px !important;
+    margin-bottom: 2px !important;
+    margin-left: 39px !important;
+}
+.footer-links {
+    color: white !important;
+    margin-top: -186px !important;
+    margin-left: -212px;
 }
 }
 
