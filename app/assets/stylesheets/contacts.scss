@@ -71,7 +71,7 @@
  color: #0A1C58;
  font-weight: bold !important;
  h2{
-  font-size: 38px;
+  font-size: 38px !important;
   font-family: Helvetica, Neue !important;
   font-weight: bold !important;
   color: #0A1C58;
@@ -172,7 +172,7 @@ p{
 
 @media only screen and (max-width: 1184px){
 //     .paragraphcontact{
-//     margin-top: 15px;
+//   padding: 25px 94px;
 //     text-align: center;
 //     font-weight: lighter !important;
 //     font-family: Helvetica, Neue !important;

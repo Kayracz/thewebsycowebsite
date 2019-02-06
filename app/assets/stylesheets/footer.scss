@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 45vh;
+  height: 29vh;
   padding: 0px 50px;
   color: white !important;
 }
@@ -24,7 +24,11 @@
   font-size: 12px;
 }
 
-
+.footer-about img {
+    margin-top: 31px !important;
+    margin-bottom: 2px !important;
+    margin-left: 69px !important;
+}
 
 ////
 
@@ -74,8 +78,9 @@
 .footer-about img {
     margin-top: 31px !important;
     margin-bottom: 2px !important;
-    margin-left: 36px !important;
+        margin-left: 69px !important;
 }
+
  .footer-links {
     margin-top: -222px !important;
     margin-left: -212px;

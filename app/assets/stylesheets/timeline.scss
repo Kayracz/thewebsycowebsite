@@ -33,6 +33,12 @@
 
 .selected{
   color: #0A1C58 !important;
+
+  p{
+    font-weight: lighter !important;
+    font-family: Helvetica, Neue !important;
+    font-size: 15px;
+  }
 }
 
 
@@ -330,8 +336,8 @@
      font-weight: bold;
     color: #0A1C58;
     font-size: 15px;
-    font-family: helvetica neue;
     margin-bottom: 100px;
+    font-family: Helvetica, Neue !important;
 }
 .cd-horizontal-timeline .events-content li.selected {
   /* visible event content */

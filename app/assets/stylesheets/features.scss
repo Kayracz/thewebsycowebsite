@@ -42,10 +42,15 @@
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  p{
+    font-weight: lighter !important;
+    font-family: Helvetica, Neue !important;
+    font-size: 15px !important;
+  }
 }
 
 .titlesauce{
-    font-size: 38px;
+    font-size: 38px !important;
     font-family: Helvetica, Neue !important;
     font-weight: bold !important;
     color: #0A1C58;
