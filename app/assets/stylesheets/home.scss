@@ -5,9 +5,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
-
-
 @import "timeline";
 @import "homepage";
 @import "copyright";
@@ -18,6 +15,8 @@
 @import "footer";
 @import "homepage";
 @import "wedo";
+@import "macbook";
+@import "pictureit";
 
 .alert-info {
     color: #31708f;
@@ -167,7 +166,7 @@ main-title hidden {
 }
 .parallax .bg__foo {
   background-image:image-url('cool-background.png');
-  opacity: 0.6;
+  opacity: 0.2;
   &:before{
     opacity: .1;
   }
@@ -183,12 +182,14 @@ main-title hidden {
 }
 .parallax .bg__break {
   // box-shadow: inset 0 0 1em #111;
-  background-image: image-url('try11.jpeg');
+  background-image: image-url('cool-background.png');
+  opacity: 0.2;
 }
 
 .parallax .bg__break2 {
   // box-shadow: inset 0 0 1em #111;
-  background-image: image-url('image.jpeg');
+  background-image: image-url('cool-background.png');
+  opacity: 0.2;
 }
 
 .parallax .capture {

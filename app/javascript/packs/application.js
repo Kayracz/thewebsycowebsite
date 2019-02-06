@@ -82,7 +82,7 @@ window.onload = function() {
 
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter
-  var dataText = ["WE ARE WEBSY !", "WEB DEVELOPERS.", "DREAMERS.", "BUILDERS.", "CREATORS.", "GAME CHANGERS.", "DEVELOPING YOUR IDEAS"];
+  var dataText = ["WE ARE WEBSY !", "WEB DEVELOPERS.", "BUILDERS.", "CREATORS.", "GAME CHANGERS.", "DEVELOPING YOUR IDEAS"];
   // type one text in the typwriter
   // keeps calling itself until the text is finished
   function typeWriter(text, i, fnCallback) {
