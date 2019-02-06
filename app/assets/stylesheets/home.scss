@@ -5,6 +5,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+
+
 @import "timeline";
 @import "homepage";
 @import "copyright";
@@ -163,24 +166,31 @@ main-title hidden {
   height: 100vh;
 }
 .parallax .bg__foo {
-  background-image:image-url('try5.jpg');
+  background-image:image-url('cool-background.png');
+  opacity: 0.6;
   &:before{
     opacity: .1;
   }
 }
 .parallax .bg__bar {
-  background-image: image-url('try9.jpg');
+  background-image: image-url('try8.jpg');
 }
 .parallax .bg__baz {
- background-image: image-url('try5.jpeg');
+ background-image: image-url('try11.jpeg');
 }
 .parallax .bg__bazz {
-  background-image: image-url('try5.jpg');
+  background-image: image-url('try7.jpg');
 }
 .parallax .bg__break {
-  box-shadow: inset 0 0 1em #111;
+  // box-shadow: inset 0 0 1em #111;
   background-image: image-url('try11.jpeg');
 }
+
+.parallax .bg__break2 {
+  // box-shadow: inset 0 0 1em #111;
+  background-image: image-url('image.jpeg');
+}
+
 .parallax .capture {
   float: right;
   width: 200px;
