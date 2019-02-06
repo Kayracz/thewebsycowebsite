@@ -32,7 +32,10 @@ class ContactsController < ApplicationController
         format.html { redirect_to @contact, notice: 'Message was successfully sent.' }
         format.json { render :show, status: :created, location: @contact }
       else
-        format.html { render :new }
+        ExampleMailer.formulariocontacto(@contact).deliver
+        format.html { redirect_to @contact, notice: 'Message was successfully sent.' }
+        format.json { render :show, status: :created, location: @contact }
+        # format.html { render :new }
         # format.json { render json: @contact.errors, status: :unprocessable_entity }
       end
     end
