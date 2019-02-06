@@ -6,16 +6,41 @@
   margin-top: 15%;
   color: #0A1C58;
    text-align: center;
-
+    padding-bottom: 59px !important;
 }
 
+.inboxtitle3{
+  h2{
+  margin-top: 15%;
+  font-family: Helvetica Neue !important;
+  font-weight: bold !important;
+  text-align: center;
+  font-size: 47px;
+  padding-bottom: 59px !important;
+  color:white;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #0A1C57,
+               0 3px 0 #0A1C57,
+               0 4px 0 #0A1C57,
+               0 5px 0 #0A1C57,
+               0 6px 1px #0A1C57,
+               0 0 5px #0A1C57,
+               0 1px 3px #0A1C57,
+               0 3px 5px #0A1C57,
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
+  }
+             }
 
 .messagetitle{
     text-align: center;
     color: #0A1C58;
-    font-size: Helvetica Neue !important;
+    font-family: Helvetica Neue !important;
     font-weight: bold !important;
     margin-top: 17%;
+     padding-bottom: 59px !important;
 
 
     h2{
@@ -49,7 +74,9 @@
     font-family: Helvetica Neue !important;
     font-weight:bold;
     margin-top: 25px;
-    margin-left: 45%;
+    margin-left: 42%;
+    border-radius: 25px;
+    padding: 9px 43px;
 }
 }
 

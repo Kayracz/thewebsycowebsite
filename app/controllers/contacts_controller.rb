@@ -33,6 +33,7 @@ class ContactsController < ApplicationController
         format.html { redirect_to @contact, notice: 'Message was successfully sent.' }
         format.json { render :show, status: :created, location: @contact }
       else
+      ExampleMailer.formulariocontacto(@contact).deliver
         format.html { redirect_to @contact, notice: 'Message was successfully sent.' }
         format.json { render :show, status: :created, location: @contact }
       end
@@ -71,6 +72,6 @@ class ContactsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def contact_params
-      params.require(:contact).permit(:title, :body, :email, :Name)
+      params.require(:contact).permit(:title, :body, :email, :name)
     end
 end
