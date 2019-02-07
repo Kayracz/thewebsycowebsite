@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 29vh;
+  height: 22vh;
   padding: 0px 50px;
   color: white !important;
 }
@@ -20,9 +20,6 @@
   opacity: 0.9;
 }
 
-.footer-copyright{
-  font-size: 12px;
-}
 
 .footer-about img {
     margin-top: 31px !important;
@@ -44,7 +41,7 @@
 }
 
 .footer-copyright{
-  font-size: 10px;
+  font-size: 12px;
   color:white
 
 }
@@ -104,3 +101,109 @@
 }
 }
 
+
+
+//
+
+
+
+
+.footer1 {
+  background: #0A1C58;
+  margin-top: -43px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 22vh;
+  padding: 0px 50px;
+  color: white !important;
+}
+.footer1-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer1-links a:hover {
+  opacity: 0.9;
+}
+
+
+.footer1-about img {
+    margin-top: 31px !important;
+    margin-bottom: 2px !important;
+    margin-left: 69px !important;
+}
+
+////
+
+.footer1-links a {
+  color: white !important;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+  opacity: 0.8;
+}
+.footer1-links a:hover {
+  opacity: 1;
+}
+
+.footer1-copyright{
+  font-size: 12px;
+  color:white
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+ .footer1{
+    background: #0A1C58;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45vh;
+    padding: 0px 50px;
+    color: white !important;
+  }
+
+  // .footer-links {
+  //   margin-top: -222px !important;
+  //   margin-left: -212px;
+  // }
+
+.footer1-copyright{
+  color:white;
+}
+}
+
+
+
+@media screen and (max-width: 1184px){
+.footer1-about img {
+    margin-top: 31px !important;
+    margin-bottom: 2px !important;
+        margin-left: 69px !important;
+}
+
+.footer1-copyright {
+ margin-top: 31px !important;
+    margin-bottom: 2px !important;
+    margin-left: 36px !important;
+    color:white;
+}
+}
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+  /* some CSS here */
+.footer1-about img {
+    margin-top: -120px !important;
+    margin-bottom: 2px !important;
+    margin-left: 39px !important;
+}
+.footer1-links {
+    color: white !important;
+    margin-top: -186px !important;
+    margin-left: -212px;
+}
+}

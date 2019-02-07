@@ -28,6 +28,7 @@
 }
 
 .service {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
   background: #fff;
   margin: 20px;
   padding: 20px;
@@ -38,7 +39,6 @@
   display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid #e7e7e7;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -50,10 +50,13 @@
 }
 
 .titlesauce{
-    font-size: 38px !important;
     font-family: Helvetica, Neue !important;
     font-weight: bold !important;
     color: #0A1C58;
+    font-size: 55px !important;
+    text-align: center !important;
+    margin: 20px;
+    margin-bottom: 49px;
 }
 
 .service:hover {

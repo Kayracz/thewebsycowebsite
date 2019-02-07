@@ -1,3 +1,19 @@
 // Place all the styles related to the Messages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.messagetitle1 h2 {
+    font-family: helvetica Neue !important;
+    font-weight: bold;
+    color: #0A1C58;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.theform{
+  margin-top:15%;
+  margin-bottom:15%;
+}
+
+.horray {
+  background-image: image-url('emailemail.png');
+}

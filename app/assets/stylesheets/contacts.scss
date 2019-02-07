@@ -2,6 +2,106 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.contactus{
+ h2{
+  font-size: 38px !important;
+  font-family: Helvetica, Neue !important;
+  font-weight: bold !important;
+  color: #0A1C58;
+  font-weight: bold !important;
+  text-align: center;
+  margin: 20px;
+}
+}
+
+.paragraphcontact{
+  font-size: 24px !important;
+  font-weight: lighter !important;
+  font-family: Helvetica, Neue !important;
+  line-height: 34px;
+  text-align: center !important;
+}
+
+
+.contactform{
+  position: relative;
+  list-style-type: none;
+  padding: 0;
+  max-width: 34em;
+  margin: 2% auto 0;
+}
+
+.contactform{
+
+  background: white;
+  border-radius: 30px;
+  padding: 40px;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
+  transform: translateY(0) rotate(4deg) translateX(25px) scale(1);
+  transform-origin: 0 0;
+
+  transition: transform 0.6s cubic-bezier(.8,.2,.1,0.8) 0.1s,
+    background 0.4s linear;
+
+  cursor: pointer;
+  user-select: none;
+
+  :last-child { margin-bottom: 0; }
+}
+
+
+@media only screen and (max-width: 768px){
+    .paragraphcontact{
+    margin-top: 19px;
+    text-align: center;
+    font-weight: lighter !important;
+    font-family: Helvetica, Neue !important;
+    margin-bottom: 52px;
+  }
+
+.paragraphcontact{
+  font-size: 15px !important;
+  margin: 35px;
+  font-weight: lighter !important;
+  font-family: Helvetica, Neue !important;
+  line-height: 34px;
+  text-align: center !important;
+}
+.contactform{
+ position: relative;
+     margin-bottom: -164px;
+ background: white;
+ margin-top: 5%;
+ padding-bottom: 40px;
+ padding-top: 42px;
+ z-index: 5;
+ -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
+ -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
+ box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
+}
+
+}
+
+
+@media only screen and (min-width: 300px){
+.contactus {
+h2{
+    font-size: 31px;
+    font-weight: bold !important;
+}
+}
+
+.paragraphcontact{
+p{
+      font-size: 19px !important;
+    }
+}
+}
+
+
+@media only screen and (max-width: 1184px){
+}
+
 .messagetitle2{
   margin-top: 15%;
   color: #0A1C58;
@@ -91,153 +191,67 @@
 
 
 
-.contactus{
- font-size: 38px;
- font-family: Helvetica, Neue !important;
- font-weight: bold !important;
- color: #0A1C58;
- font-weight: bold !important;
- h2{
-  font-size: 38px !important;
-  font-family: Helvetica, Neue !important;
-  font-weight: bold !important;
-  color: #0A1C58;
-  font-weight: bold !important;
-  text-align: center;
-}
+
+.cards2 {
+  position: relative;
+  list-style-type: none;
+  padding: 0;
+  max-width: 34em;
+  margin: 20% auto 0;
 }
 
+.card2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
 
+  background: white;
+  border-radius: 30px;
+  padding: 40px;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
+  transform: translateY(0) rotate(4deg) translateX(25px) scale(1);
+  transform-origin: 0 0;
 
-.paragraphcontact{
-  font-size: 24px !important;
-  margin: 35px;
-  font-weight: lighter !important;
-  font-family: Helvetica, Neue !important;
-  line-height: 34px;
-  text-align: center !important;
+  transition: transform 0.6s cubic-bezier(.8,.2,.1,0.8) 0.1s,
+    background 0.4s linear;
+
+  cursor: pointer;
+  user-select: none;
+
+  :last-child { margin-bottom: 0; }
 }
 
-.contactFormWrapper{
-  display: flex;
-  flex-direction: column;
-  padding: 35px 50px;
-  max-width: 960px;
-  margin: auto;
+.card2--next {
+  z-index: 5;
+  transform: translateY(-25px) rotate(4deg) translateX(25px) scale(1);
 }
 
-.contactform{
- position: relative;
-     margin-bottom: -164px;
- background: white;
- margin-top: 5%;
- padding-bottom: 40px;
- padding-top: 42px;
- z-index: 5;
- -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
- -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
- box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
+.card2--out {
+  animation: card-out 0.6s cubic-bezier(.8,.2,.1,0.8);
+  transform: translateY(-50px) rotate(8deg) translateX(55px) scale(0.95);
+  z-index: 1;
+  background: #bbb;
 }
 
-
-@media only screen and (max-width: 768px){
-    .paragraphcontact{
-    margin-top: 19px;
-    text-align: center;
-    font-weight: lighter !important;
-    font-family: Helvetica, Neue !important;
-    margin-bottom: 52px;
-  }
-.contactFormWrapper{
-  display: flex;
-  flex-direction: column;
-  padding: 35px 50px;
-  max-width: 960px;
-  margin: auto;
+@keyframes card2-out {
+  0% { z-index: 20; transform: translateY(0px) rotate(-4deg); }
+  50% { transform: translateY(-120%) rotate(-5deg) translateX(-40px); }
+  80% { z-index: 1; }
+  100% { transform: translateY(-50px) rotate(8deg) translateX(55px) scale(0.95); }
 }
 
-.paragraphcontact{
-  font-size: 15px !important;
-  margin: 35px;
-  font-weight: lighter !important;
-  font-family: Helvetica, Neue !important;
-  line-height: 34px;
-  text-align: center !important;
-}
-.contactform{
- position: relative;
-     margin-bottom: -164px;
- background: white;
- margin-top: 5%;
- padding-bottom: 40px;
- padding-top: 42px;
- z-index: 5;
- -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
- -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
- box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
-}
-
-}
-
-
-@media only screen and (min-width: 300px){
-.contactus {
-h2{
-    font-size: 31px;
-    font-weight: bold !important;
-}
-}
-
-.paragraphcontact{
-p{
-      font-size: 19px !important;
-    }
-}
+.card2--current {
+  cursor: auto;
+  user-select: auto;
+  position: relative;
+  z-index: 10;
+  opacity: 1;
+  background: white;
+  transform: rotate(-1deg) translateX(0%) scale(1);
 }
 
 
 
-@media only screen and (max-width: 1184px){
-//     .paragraphcontact{
-//   padding: 25px 94px;
-//     text-align: center;
-//     font-weight: lighter !important;
-//     font-family: Helvetica, Neue !important;
-//     margin-bottom: 52px;
-//   }
-// .contactFormWrapper{
-//   display: flex;
-//   flex-direction: column;
-//   padding: 35px 50px;
-//   max-width: 960px;
-//   margin: auto;
-// }
+////////////////////////////////////////
 
-// .paragraphcontact{
-//   p{
-//       font-size: 15px;
-//     margin: 38px;
-//     margin-left: 54px;
-//     margin-right: 129px;
-// }
-// }
-// .contactform{
-//  position: relative;
-//      margin-bottom: -164px;
-//  background: white;
-//  margin-top: 5%;
-//  // padding-bottom: 40px;
-//  // padding-top: 42px;
-//  z-index: 5;
-//  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
-//  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
-//  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
-// }
-
-// .contactus{
-//   h2{
-//         // margin-left: -10%;
-//   }
-// }
-
-}

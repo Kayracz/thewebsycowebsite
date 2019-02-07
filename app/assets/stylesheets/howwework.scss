@@ -2,11 +2,20 @@
   // padding-top: 30px !important;
   // padding-bottom: 120px !important;
 
-  h2{
+ h2{
     font-size: 38px;
     font-family: Helvetica, Neue !important;
     font-weight: bold !important;
     color: #0A1C58;
+    margin-bottom: 120px;
+    position: relative;
+    padding-top: 30px;
+    font-size: 55px !important;
+    margin-top: 40px !important;
+    text-align: center !important;
+    margin-left: 51px;
+    margin: 67px;
+    padding-bottom: 55px !important;
   }
 }
 
@@ -28,7 +37,7 @@
     flex: 1;
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid #e7e7e7;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
     transition: all 0.3s ease;
   }
   .shrinked{
@@ -141,7 +150,7 @@
     flex: 1;
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid #e7e7e7;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.44);
     transition: all 0.3s ease;
 }
 

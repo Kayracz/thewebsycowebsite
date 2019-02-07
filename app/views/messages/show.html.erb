@@ -1,15 +1,19 @@
 <%= render 'shared/navbar' %>
-<p id="notice"><%= notice %></p>
+<!-- <p id="notice"><%= notice %></p> -->
 
+ <div class="horray">
 
 <div class="container">
   <div class="messagetitle2">
 <h2><%= t"homes.messageconfirmation"%></h2>
+<%= @message.name %>,
 <p> <%= t"homes.message2"%></p>
 </div>
 </div>
 
-<div class="container">
+</div>
+
+<!-- <div class="container">
 <p>
   <strong>Name:</strong>
   <%= @message.name %>
@@ -30,4 +34,4 @@
   <%= @message.message %>
 </p>
 
-</div>
+</div> -->

@@ -4,16 +4,13 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
 @import "timeline";
-@import "homepage";
 @import "copyright";
 @import "contacts";
-@import "features";
+@import "services";
 @import "howwework";
 @import "navbar";
 @import "footer";
-@import "homepage";
 @import "wedo";
 @import "macbook";
 @import "pictureit";
@@ -235,7 +232,6 @@ article section.parallax {
 
 
 
-
 @media only screen and (max-width: 768px){
 .parallax .bg__foo, .parallax .bg__bazz {
     height: 51vh;
@@ -246,7 +242,7 @@ article section.parallax {
     text-indent: -9999px;
     background-attachment: fixed;
     background-position: top center;
-    height: 45vh;
+    height: 82vh;
     background-size: cover;
 }
 
@@ -278,18 +274,159 @@ article section.parallax {
 }
 
 
-// // Footer
-// .container-extended{
-//   width: 100% !important;
-//   margin:auto !important;
-//   box-sizing:border-box !important;
-//   overflow-x:hidden !important;
+// Footer
+.container-extended{
+  width: 100% !important;
+  margin:auto !important;
+  box-sizing:border-box !important;
+  overflow-x:hidden !important;
+}
+
+.contactUsDiv {
+  float: left;
+  background:-webkit-linear-gradient(bottom, var(--separator-color) 0%, var(--separator-color) 38%,
+    rgba(255, 255, 255, 1) 38%,
+    rgba(255, 255, 255, 1) 85%,
+    rgba(255, 255, 255, 1) 100%) !important;
+}
+
+
+.banner1 {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+   margin-top: -39px !important;
+}
 // }
 
-// .contactUsDiv {
-//   float: left;
-//   background:-webkit-linear-gradient(bottom, var(--separator-color) 0%, var(--separator-color) 38%,
-//     rgba(255, 255, 255, 1) 38%,
-//     rgba(255, 255, 255, 1) 85%,
-//     rgba(255, 255, 255, 1) 100%) !important;
-// }
+.textLeft{
+  text-align: left !important;
+}
+
+//FIRST TITLE
+.titleweare{
+  body {
+    background-color: #FF5A5A;
+    height: 100%;
+    font-family: 'tradegothiclt-bold', sans-serif;
+  }
+
+  span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+
+  h1 {
+    width: 100%;
+    height: 0%;
+    position: absolute;
+    bottom: 355px;
+    left: -9px;
+    font-size: 75px;
+    font-family: Helvetica Neue;
+    font-weight: bold;
+    color: midnightblue;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+
+text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #0A1C57,
+               0 3px 0 #0A1C57,
+               0 4px 0 #0A1C57,
+               0 5px 0 #0A1C57,
+               0 6px 1px #0A1C57,
+               0 0 5px #0A1C57,
+               0 1px 3px #0A1C57,
+               0 3px 5px #0A1C57,
+               0 5px 10px rgba(0,0,0,.25),
+               // 0 10px 10px rgba(0,0,0,.2),
+               // 0 20px 20px rgba(0,0,0,.15);
+  }
+}
+
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .titleweare h1 {
+    font-size: 48.1px;
+    left: 2px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .titleweare h1 {
+    font-size: 36.1px;
+    left: 13px;
+  }
+}
+
+
+/* Typewriter banner */
+.typewriter {
+  font-family: Helvetica, Neue;
+  font-weight: bold;
+  display: inline-block;
+  color: #0A1C58;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.typewriter-text {
+  display: inline-block;
+  overflow: hidden;
+  letter-spacing: 2px;
+  animation: typing 5s steps(30, end), blink .75s step-end infinite;
+  white-space: nowrap;
+  font-size: 30px;
+  font-weight: 700;
+  border-right: 4px solid orange;
+  box-sizing: border-box;
+}
+
+@keyframes typing {
+  from {
+    width: 0%
+  }
+  to {
+    width: 100%
+  }
+}
+
+@keyframes blink {
+  from, to {
+    border-color: transparent
+  }
+  50% {
+    border-color: orange;
+  }
+}
+main-title hidden {
+  box-shadow: 0 2px 93px 0 rgba(0,0,0,0.5);
+  height: 50%;
+  position: absolute;
+  transform: translate(110%, 20%);
+  width: 25%;
+  z-index: 2;
+}
+
+
+
+

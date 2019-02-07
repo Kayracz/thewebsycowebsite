@@ -16,6 +16,43 @@
 //= require turbolinks
 //= require_tree .
 
+$.fn.commentCards2 = function(){
+
+  return this.each(function(){
+
+    var $this = $(this),
+        $cards2 = $this.find('.card2'),
+        $current = $cards2.filter('.card2--current'),
+        $next;
+
+    $cards2.on('click',function(){
+      if ( !$current.is(this) ) {
+        $cards2.removeClass('card2--current card2--out card2--next');
+        $current.addClass('card2--out');
+        $current = $(this).addClass('card2--current');
+        $next = $current.next();
+        $next = $next.length ? $next : $cards2.first();
+        $next.addClass('card2--next');
+      }
+    });
+
+    if ( !$current.length ) {
+      $current = $cards2.last();
+      $cards2.first().trigger('click');
+    }
+
+    $this.addClass('cards2--active');
+
+  })
+
+};
+
+$('.cards2').commentCards2();
+
+
+
+
+
 
 var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
