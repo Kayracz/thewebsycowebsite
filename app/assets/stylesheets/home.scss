@@ -162,32 +162,31 @@ main-title hidden {
   height: 100vh;
 }
 .parallax .bg__foo {
-  background-image:image-url('cool-background.png');
-  opacity: 0.1;
+  background-image:image-url('back.png');
+  opacity: 0.2;
   &:before{
     opacity: .1;
   }
 }
 .parallax .bg__bar {
-  background-image: image-url('cool-background.png');
+  background-image: image-url('cool-background2.png');
 }
 .parallax .bg__baz {
- background-image: image-url('cool-background.png');
- opacity: 0.1;
+ background-image: image-url('cool-background2.png');
 }
 .parallax .bg__bazz {
-  background-image: image-url('cool-background.png');
+  background-image: image-url('cool-background2.png');
 }
 .parallax .bg__break {
   // box-shadow: inset 0 0 1em #111;
-  background-image: image-url('cool-background.png');
-  opacity: 0.1;
+  background-image: image-url('3.jpg');
+  opacity: 0.9;
 }
 
 .parallax .bg__break2 {
   // box-shadow: inset 0 0 1em #111;
-  background-image: image-url('cool-background.png');
-  opacity: 0.1;
+  background-image: image-url('proto3.png');
+  opacity: 0.9;
 }
 
 .parallax .capture {
