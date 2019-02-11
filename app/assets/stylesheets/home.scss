@@ -166,10 +166,11 @@ main-title hidden {
   opacity: 0.5;
   &:before{
     opacity: .1;
-  }
+}
 }
 .parallax .bg__bar {
-  background-image: image-url('cool-background2.png');
+  background-image: image-url('back.png');
+  opacity: 0.5;
 }
 .parallax .bg__baz {
  background-image: image-url('cool-background2.png');
