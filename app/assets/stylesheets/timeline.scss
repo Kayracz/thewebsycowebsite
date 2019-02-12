@@ -394,8 +394,10 @@
 }
 
 .cd-horizontal-timeline .events-content p {
-  font-size: 15px;
-  color: #333;
+  font-size: 19px !important;
+    font-family: helvetica Neue !important;
+    font-weight: 300 !important;
+    color: black;
 }
 
 .cd-horizontal-timeline .events-content em,
