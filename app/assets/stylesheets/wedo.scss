@@ -21,14 +21,19 @@
   }
 
   p{
-    font-size: 24px !important;
-    font-weight: lighter !important;
-    font-family: Helvetica, Neue !important;
+    // font-size: 24px !important;
+    // font-weight: lighter !important;
+    // font-family: Helvetica, Neue !important;
     line-height: 34px;
     text-align: left !important;
     margin-left: 23px;
     padding-bottom: 86px;
     text-align: justify !important;
+
+
+    font-weight: 300 !important;
+    font-family: Helvetica Neue,  !important;
+    font-size: 22px !important;
   }
 }
 
@@ -49,6 +54,9 @@
   .wedo h1 {
 
   }
+ img{
+      height: 55px;
+    }
 }
 
 

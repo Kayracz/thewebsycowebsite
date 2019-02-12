@@ -2,11 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .messagetitle1 h2 {
-    font-family: helvetica Neue !important;
+    font-family: Bebas Neue !important;
     font-weight: bold;
-    color: #0A1C58;
+    // color: #0A1C58;
+    color:white;
+    text-shadow: 3px 2px 0px black;
     text-align: center;
     padding-top: 5%;
+    font-size: 43px;
 }
 
 .theform{
@@ -15,6 +18,15 @@
 }
 
 .horray {
-  background-image: image-url('emailemail.png');
+  background-image: image-url('back.png');
   margin:auto;
+  opacity: 0.7;
+}
+
+.messagetitle2 {
+      color:white;
+    text-shadow: 3px 2px 0px black;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 43px;
 }

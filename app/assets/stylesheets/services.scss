@@ -45,14 +45,15 @@
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
   p{
-    font-weight: lighter !important;
-    font-family: Helvetica, Neue !important;
-    font-size: 15px !important;
+    font-weight: 300 !important;
+    font-family: Helvetica Neue,  !important;
+    font-size: 19px !important;
+
   }
 }
 
 .titlesauce{
-    font-family: Helvetica, Neue !important;
+     font-family: Bebas Neue !important;
     font-weight: bold !important;
     color: #0A1C58;
     font-size: 55px !important;
@@ -146,18 +147,20 @@ font-size: 31px;
 
 
 .lettercolor{
-    font-size: 22px;
     color: #0A1C58;
     margin-bottom: 10px;
-    font-family: Helvetica, Neue !important;
+    font-family: Bebas Neue !important;
+    font-size: 33px;
 
 }
 
 .lettercolor2{
-    font-size: 21px;
+
     margin-bottom: 10px;
-    font-weight: lighter !important;
-    font-family: Helvetica, Neue !important;
+
+    font-weight: 300 !important;
+    font-family: Helvetica Neue,  !important;
+    font-size: 19px !important;
 }
 
 .letterem{
