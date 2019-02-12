@@ -15,6 +15,9 @@
   display: block;
   margin: 0 auto;
   width: 5em;
+  position: absolute;
+  bottom: 200%;
+  left:-31px;
 }
 .some-class1 {
   display: block;
@@ -133,10 +136,9 @@
   position: absolute;
   z-index: 1;
   left: 0;
-  top: 49px;
   height: 2px;
   top: 49px;
-  width: 1185px !important;
+  width: 1400px !important;
   /* width will be set using JavaScript */
   background: #dfdfdf;
   -webkit-transition: -webkit-transform 0.4s;
@@ -188,7 +190,7 @@
   /* this is used to create the event spot */
   content: '';
   position: absolute;
-  left: 50%;
+  left: -40%;
   right: auto;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
@@ -308,7 +310,7 @@
 
 .cd-horizontal-timeline .events-content {
   position: relative;
-  width: 60%;
+  width: 100%;
   // text-align: left;
   margin: 2em 0;
   overflow: hidden;
