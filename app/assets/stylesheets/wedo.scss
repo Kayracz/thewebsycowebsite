@@ -21,43 +21,19 @@
   }
 
   p{
-    // font-size: 24px !important;
-    // font-weight: lighter !important;
-    // font-family: Helvetica, Neue !important;
     line-height: 34px;
     text-align: left !important;
     margin-left: 23px;
     padding-bottom: 86px;
     text-align: justify !important;
-
-
     font-weight: 300 !important;
     font-family: Helvetica Neue,  !important;
     font-size: 22px !important;
   }
+
 }
 
 
-@media only screen and (max-width: 768px) {
-  .wedo h1 {
-    font-size: 31px;
-    font-weight: bold !important;
-}
-  }
-
-
-  .wedo p{
-    font-size: 19px !important;
-  }
-
-@media only screen and (max-width: 320px) {
-  .wedo h1 {
-
-  }
- img{
-      height: 55px;
-    }
-}
 
 
 @media only screen and (max-width: 320px) {
@@ -65,3 +41,60 @@
 
   }
 }
+
+
+
+@media only screen and (max-width: 768px){
+.parallax [class*="bg__"] {
+    display: none;
+}
+
+.titleweare h1 {
+    display: none !important;
+}
+
+.wedo h1{
+  text-align: center !important;
+  margin-top:-23px;
+  }
+
+  .wedo img {
+  display:none;
+}
+
+}
+
+@media only screen and (min-width: 300px){
+.wedo {
+    // img{
+    //   height: 50px;
+    //   // margin-top: 456px;
+    // }
+
+  }
+  .parallax .bg__foo {
+  background-image:image-url('back.png');
+  opacity: 0.6;
+  &:before{
+    opacity: .1;
+}
+}
+
+}
+
+
+// @media only screen and (min-width: 1100px) {
+// .wedo {
+//     display: inline-block;
+//     text-align: left !important;
+//     text-shadow: 4px 0px 9px white;
+
+//     img{
+//       height: 50px;
+
+//       // margin-top: 456px;
+//     }
+//   }
+// }
+
+
