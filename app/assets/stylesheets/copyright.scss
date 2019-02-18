@@ -103,9 +103,11 @@ p{
     text-align: center;
 }
 
- img {
-  display:none !important;
- }
+
+.copyright-logo img {
+    display: none;
+}
+
 
  .copyright-text h2 {
     padding-top: 100px;
