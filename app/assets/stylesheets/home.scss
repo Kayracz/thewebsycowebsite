@@ -15,6 +15,9 @@
 @import "macbook";
 @import "pictureit";
 
+
+
+
 .alert-info {
     color: #31708f;
     background-color: #d9edf7;
@@ -84,7 +87,7 @@ a{
 
 /* Typewriter banner */
 .typewriter {
-  font-family: Helvetica, Neue;
+  font-family: 'BebasNeueRegula' ;
   font-weight: bold;
   display: inline-block;
   color: #0A1C58;
@@ -339,17 +342,18 @@ article section.parallax {
     width: 100%;
     height: 0%;
     position: absolute;
-    bottom: 405px;
+    bottom: 350px;
     left: -9px;
-    font-size: 75px;
-    font-family: Helvetica Neue;
-    font-weight: bold;
+    font-size: 150px;
+     font-family: 'BebasNeueRegular';
+   font-weight: normal;
+   font-style: normal;
+    // font-family: Helvetica Neue;
+    // font-weight: bold;
     color: midnightblue;
-    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: bold;
     color: white;
 
 text-shadow: 0 1px 0 #ccc,

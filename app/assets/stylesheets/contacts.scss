@@ -6,9 +6,8 @@
  h2{
   font-size: 38px !important;
   font-family: Helvetica Neue !important;
-  font-weight: bold !important;
+  // font-weight: bold !important;
   color: #0A1C58;
-  font-weight: bold !important;
   text-align: center;
   margin: 20px;
 }
@@ -90,7 +89,6 @@
 @media only screen and (min-width: 300px){
 .contactus {
 h2{
-    font-weight: bold !important;
     font-family: Bebas Neue !important;
     font-size: 44px !important;
 }

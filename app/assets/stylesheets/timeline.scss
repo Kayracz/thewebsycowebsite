@@ -340,12 +340,18 @@
   animation-timing-function: ease-in-out;
 }
 
+
+// .selected h5{
+//   font-family: Helvetica Neue !important;
+//     font-weight: normal;
+//    font-style: normal;
+// }
 .selected h6{
      font-weight: bold;
     color: #0A1C58;
     font-size: 15px;
     margin-bottom: 100px;
-    font-family: Helvetica, Neue !important;
+    font-family: Helvetica Neue !important;
 }
 .cd-horizontal-timeline .events-content li.selected {
   /* visible event content */
