@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get 'home/about'
   get 'home/contact'
   get 'home/copyright'
+  get 'home/pricing'
 
   get 'contacts/new'
   get 'contacts/show'
