@@ -14,6 +14,9 @@
 @import "wedo";
 @import "macbook";
 @import "pictureit";
+@import "pricing";
+@import "footerwhite";
+@import "navbarwhite";
 
 
 
@@ -386,6 +389,11 @@ text-shadow: 0 1px 0 #ccc,
     left: 2px;
     text-align: center;
   }
+
+  .navbar-wagon2 a {
+    color:  #0A1C58 !important;
+    font-weight: 150 !important;
+}
 }
 
 @media only screen and (max-width: 320px) {

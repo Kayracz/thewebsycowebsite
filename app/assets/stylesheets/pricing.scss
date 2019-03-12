@@ -1,0 +1,37 @@
+
+.pricings{
+    font-family: Bebas Neue !important;
+    color: #0A1C58;
+    font-size: 44px !important;
+    text-align: center !important;
+    margin: 20px;
+    margin-bottom: 49px;
+    margin-top: 14%;
+
+    h2{
+    font-size: 44px !important;
+    }
+    }
+
+
+.display-4 {
+  font-family: Bebas Neue !important;
+  color: #0A1C58;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    background-color: #0A1C58;
+}
+
+@media only screen and (max-width: 768px) {
+  .pricings{
+    font-family: Bebas Neue !important;
+    color: #0A1C58;
+    font-size: 44px !important;
+    text-align: center !important;
+    margin: 20px;
+    margin-bottom: 49px;
+    margin-top: 50%;
+}
+}

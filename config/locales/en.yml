@@ -10,6 +10,7 @@ en:
    footer1: "How we work"
    footer2: "Services"
    footer3: "Contact"
+   footer4: "Pricing"
    name: "Name"
    email: "Email"
    message: "Message"
@@ -44,5 +45,6 @@ en:
    message2: "Thank you! we will get back to you soon :) "
    enviar: "Send"
    enviando: "Sending message..."
+
 
 
