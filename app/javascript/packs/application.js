@@ -17,11 +17,6 @@
 //= require_tree .
 
 
-
-
-
-
-
 //
 
   jQuery(document).ready(function($) {
@@ -446,4 +441,8 @@ $(function () {
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
   });
 });
+
+
+
+
 

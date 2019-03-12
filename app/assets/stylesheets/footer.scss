@@ -1,209 +1,227 @@
-
-
-/* Footer */
-
-.footer {
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
   background: #0A1C58;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 22vh;
-  padding: 0px 50px;
-  color: white !important;
+  position: relative;
 }
-.footer-links {
-  display: flex;
-  align-items: center;
+.footer-cta {
+  border-bottom: 1px solid #0A1C58;
+}
+.single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: white;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: white;
+  line-height: 28px;
+  font-weight: 300;
+  margin-right: 75px;
+  text-align: justify;
+}
+.footer-social-icon span {
+  color: white;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: white;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: white;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: white;
+}
+.footer-widget ul li a {
+  color: white;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: white;
+  border: 1px solid lightgray;
+  color: midnightblue;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: lightsteelblue;
+    padding: 13px 20px;
+    border: 1px solid lightsteelblue;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #0A1C58;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: white;
+  text-decoration:none;
 }
 
-.footer-links a:hover {
-  opacity: 0.9;
+.copyright-text p hover{
+  color: cream;
+  decoration:none;
 }
 
-
-.footer-about img {
-    margin-top: 31px !important;
-    margin-bottom: 2px !important;
-    margin-left: 69px !important;
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
 }
-
-////
-
-.footer-links a {
-  color: white !important;
-  text-decoration: none;
-  font-size: 24px;
-  padding: 0px 10px;
-  opacity: 0.8;
+.footer-menu li:hover a{
+  color: #ff5e14;
 }
-.footer-links a:hover {
-  opacity: 1;
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
 }
-
-.footer-copyright{
-  font-size: 12px;
-  color:white
-
-}
-
-
-@media only screen and (max-width: 768px) {
-
- .footer{
-    background: #0A1C58;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 45vh;
-    padding: 0px 50px;
-    color: white !important;
-  }
-
-  // .footer-links {
-  //   margin-top: -222px !important;
-  //   margin-left: -212px;
-  // }
-
-.footer-copyright{
-  color:white;
-}
-}
-
-
-
-@media screen and (max-width: 1184px){
-.footer-about img {
-    margin-top: 31px !important;
-    margin-bottom: 2px !important;
-        margin-left: 69px !important;
-}
-
-.footer-copyright {
- margin-top: 31px !important;
-    margin-bottom: 2px !important;
-    margin-left: 36px !important;
-    color:white;
-}
-}
-
-/* #### Mobile Phones Portrait #### */
-@media screen and (max-device-width: 480px) and (orientation: portrait){
-  /* some CSS here */
-.footer-about img {
-    margin-top: -120px !important;
-    margin-bottom: 2px !important;
-    margin-left: 39px !important;
-}
-.footer-links {
-    color: white !important;
-    margin-top: -186px !important;
-    margin-left: -212px;
-}
-}
-
-
-
-//
-
 
 
 
 .footer1 {
   background: #0A1C58;
-  margin-top: -43px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  margin-top: -15px;
   height: 22vh;
   padding: 0px 50px;
-  color: white !important;
-}
-.footer1-links {
-  display: flex;
-  align-items: center;
-}
-
-.footer1-links a:hover {
-  opacity: 0.9;
-}
-
-
-.footer1-about img {
-    margin-top: 31px !important;
-    margin-bottom: 2px !important;
-    margin-left: 69px !important;
-}
-
-////
-
-.footer1-links a {
-  color: white !important;
-  text-decoration: none;
-  font-size: 24px;
-  padding: 0px 10px;
-  opacity: 0.8;
-}
-.footer1-links a:hover {
-  opacity: 1;
-}
-
-.footer1-copyright{
-  font-size: 12px;
-  color:white
 
 }
 
-
-@media only screen and (max-width: 768px) {
-
- .footer1{
-    background: #0A1C58;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 45vh;
-    padding: 0px 50px;
-    color: white !important;
-  }
-
-  // .footer-links {
-  //   margin-top: -222px !important;
-  //   margin-left: -212px;
-  // }
-
-.footer1-copyright{
-  color:white;
-}
+.fa-map-marker-alt:before {
+    content: "\f3c5";
+    color: gainsboro;
 }
 
 
-
-@media screen and (max-width: 1184px){
-.footer1-about img {
-    margin-top: 31px !important;
-    margin-bottom: 2px !important;
-        margin-left: 69px !important;
+.fa-phone:before {
+    content: "\f095";
+    color: gainsboro;
 }
 
-.footer1-copyright {
- margin-top: 31px !important;
-    margin-bottom: 2px !important;
-    margin-left: 36px !important;
-    color:white;
+
+.fa-envelope-open:before {
+    content: "\f2b6";
+    color: gainsboro;
+}
+
+
+@media only screen and (max-width: 768px){
+.footer1 {
+  background: #0A1C58;
+  margin-top: 85px;
+  height: 22vh;
+  padding: 0px 50px;
+}
+
+.cta-text h4 {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.footer-social-icon span {
+    font-size: 17px;
+}
+.footer-widget-heading h3 {
+    font-size: 17px;
 }
 }
 
-/* #### Mobile Phones Portrait #### */
-@media screen and (max-device-width: 480px) and (orientation: portrait){
-  /* some CSS here */
-.footer1-about img {
-    margin-top: -120px !important;
-    margin-bottom: 2px !important;
-    margin-left: 39px !important;
-}
-.footer1-links {
-    color: white !important;
-    margin-top: -186px !important;
-    margin-left: -212px;
-}
+.footer-social-icon{
+    margin-top: 34px;
+    margin-bottom:10px;
 }

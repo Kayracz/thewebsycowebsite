@@ -2,7 +2,7 @@ en:
   hello: "Hello world"
   homes:
    title: '"IF YOU CAN IMAGINE IT, WE CAN DEVELOP IT."'
-   description: "Websy is a digital consulting company, Our focus is on helping businesses to leverage technology in order to get more clients and improve efficiency. We are a team of creative innovators that transform your business ideas into a product you can showcase to the world. We specialize in custom web development services. Our custom websites are created to cater to your unique business needs, Solutions that will be tailored to perfectly fit your business strategy. "
+   description: "Websy is a digital consulting company, we are a team of creative innovators that transform your business ideas into a product you can showcase to the world. Our focus is on helping businesses use technology in order to get more clients and improve efficiency. We specialize in custom web development services. Our custom websites are created to cater to your unique business needs, solutions that will be tailored to perfectly fit your business strategy. "
    language: "Language"
    contactus: "CONTACT US"
    wewould: "We’d love to hear from you! Share your comments and questions,  we'll make sure we get back to you as soon as possible."
@@ -21,8 +21,7 @@ en:
    imagine3: "Identifying and understanding exactly what our clients want helps us in providing the perfect solution for them. Setting goals for the website and defining the target audience. "
    design: "Design"
    design1: "Page Layouts, Review, and Approval Cycle"
-   design2: "In this stage, we create custom graphics, logo, colors, typography, animations, buttons, drop-down menus and more based on the project needs. Your website gets a tangible identity, the design is critical to the user experience. As per a research, consumers form an initial judgment of a product within in 90 seconds of interaction and 62%-90% of them are based on the color. Further, different colors can evoke different emotions. Thus, cerebrally utilizing the colors while designing can bring you better results. "
-   create: "Create"
+   design2: "In this stage, we create custom graphics, logo, colors, typography, animations, buttons, drop-down menus and more based on your project needs. Your website gets a tangible identity, since the design is critical to the user experience."
    create1: "Content Writing and Assembly"
    create2: "Creation of content and the assembly of the web app itself; merging the design and layout with the company information. This step is crucial, since it will help us combine all the tangible and intangible information we have about your company to BEST portray what it is about. "
    build: "Build"
@@ -30,7 +29,7 @@ en:
    build2: "Creation and development of the website considering all requirements agreed upon. The development process can be divided into two parts, i.e. frontend and backend. Testing and reviewing the website to ensure that there are no bugs or issues. The quality team performs tests such as functionality test, usability test, compatibility test, performance test, etc. that ensures the website is ready for the users and launch. "
    scale: "Scale"
    scale1: "Maintenance: Monitoring and Regular Updating"
-   scale2: "The web development process doesn’t end after deployment. There are several post-deployment tasks that are as important as the development itself. Keeping the website up-to-date helps us stay relevent in this constant changing enviroment. Further changes according to the user’s feedback, support and maintenance as well as new updates are equally necessary "
+   scale2: "The web development process doesn’t end after deployment. There are several post-deployment tasks that are as important as the development itself. Keeping the website up-to-date helps us stay relevant in this constant changing enviroment. Further changes according to the user’s feedback, support and maintenance as well as new updates are equally necessary "
    service: "OUR SERVICES."
    service1: "Web Development"
    service2: "Creating a website that speaks to your targeted audience is the best way to convert visits into sales."

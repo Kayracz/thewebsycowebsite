@@ -19,7 +19,7 @@
      font-size: 22px;
     color: #0A1C58;
     margin-bottom: 10px;
-    font-family: Helvetica, Neue !important;
+    font-family: Helvetica Neue !important;
 }
 
 .services-grid {
@@ -52,9 +52,16 @@
   }
 }
 
+@media only screen and (min-width: 300px){
 .titlesauce{
-     font-family: Bebas Neue !important;
-    font-weight: bold !important;
+    font-family: Bebas Neue !important;
+    font-size: 44px !important;
+}
+}
+
+
+.titlesauce{
+    font-family: Bebas Neue !important;
     color: #0A1C58;
     font-size: 55px !important;
     text-align: center !important;
@@ -127,10 +134,12 @@
 
 
 @media only screen and (min-width: 300px){
-.titlesauce {
-font-size: 31px;
-    font-weight: bold !important;
-  }
+// .titlesauce {
+// font-size: 47px !important;
+// // font-weight: bold !important;
+// font-family: Bebas Neue !important;
+
+//   }
 
 .lettercolor2 {
   font-size: 19px !important;

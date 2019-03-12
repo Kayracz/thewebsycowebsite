@@ -15,14 +15,13 @@
   h1{
    font-size: 40px;
     font-family: Bebas Neue !important;
-    font-weight: bold !important;
+    // font-weight: bold !important;
     color: #0A1C58;
     padding: 26px;
   }
 
   p{
     line-height: 34px;
-    text-align: left !important;
     margin-left: 23px;
     padding-bottom: 86px;
     text-align: justify !important;
@@ -62,6 +61,14 @@
   display:none;
 }
 
+.wedo p {
+    text-align: justify !important;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+    font-family: Helvetica Neue, !important;
+    margin: 14px;
+}
+
 }
 
 @media only screen and (min-width: 300px){
@@ -83,18 +90,6 @@
 }
 
 
-// @media only screen and (min-width: 1100px) {
-// .wedo {
-//     display: inline-block;
-//     text-align: left !important;
-//     text-shadow: 4px 0px 9px white;
 
-//     img{
-//       height: 50px;
-
-//       // margin-top: 456px;
-//     }
-//   }
-// }
 
 

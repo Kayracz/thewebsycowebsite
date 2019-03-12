@@ -12,6 +12,13 @@
     font-size: 43px;
 }
 
+.messagetitle2 h2{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 43px;
+    color: #0A1C58 !important;
+}
+
 .theform{
   margin-top:15%;
   margin-bottom:15%;
@@ -20,15 +27,7 @@
 .horray {
   background-image: image-url('back.png');
   margin:auto;
-  opacity: 0.7;
-}
-
-.messagetitle2 {
-      color:white;
-    text-shadow: 3px 2px 0px black;
-    text-align: center;
-    padding-top: 5%;
-    font-size: 43px;
+  opacity: 0.9;
 }
 
 
@@ -41,5 +40,13 @@
     font-family: Helvetica Neue !important;
     color: white;
     text-shadow: 1px 1px 1px black;
+        margin-top: -44px;
 }
+.messagetitle2 {
+    text-align: center;
+    font-size: 43px;
+     color: #0A1C58 !important;
+    padding-top: -3% !important;
+}
+
 }

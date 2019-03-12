@@ -44,6 +44,14 @@
   }
 }
 
+ .kay {
+
+  display: block !important;
+  }
+  .nic {
+
+  display: block !important;
+  }
 
 //navbar
 .navbar-fixed-top.scrolled {
@@ -54,6 +62,7 @@
   color: #0A1C58 !important;
   font-weight: 150 !important;
 }
+
 }
 
 .dropdown-toggle{
@@ -171,12 +180,16 @@
   color: black !important;
 }
 
+ .navbar-wagon a {
+    color: white !important;
+    font-weight: 150 !important;
+}
 
 
 
 @media only screen and (max-width: 768px) {
   .navbar-wagon a {
-    color: midnightblue !important;
+    color: white !important;
     font-weight: 150 !important;
 }
   .messagetitle h2 {

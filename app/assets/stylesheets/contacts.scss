@@ -5,24 +5,20 @@
 .contactus{
  h2{
   font-size: 38px !important;
-  font-family: Helvetica, Neue !important;
-  font-weight: bold !important;
+  font-family: Helvetica Neue !important;
+  // font-weight: bold !important;
   color: #0A1C58;
-  font-weight: bold !important;
   text-align: center;
   margin: 20px;
 }
 }
 
 .paragraphcontact{
-  // font-size: 24px !important;
-  // font-weight: lighter !important;
-  // font-family: Helvetica, Neue !important;
   line-height: 34px;
   text-align: center !important;
 
   font-weight: 300 !important;
-    font-family: Helvetica Neue,  !important;
+    font-family: Helvetica Neue !important;
     font-size: 19px !important;
 
 }
@@ -56,23 +52,14 @@
 
 
 @media only screen and (max-width: 768px){
-    .paragraphcontact{
+    .paragraphcontact {
     margin-top: 19px;
     text-align: center;
-    font-weight: lighter !important;
-    font-family: Helvetica, Neue !important;
+    font-weight: 300 !important;
+    font-family: Helvetica Neue !important;
     margin-bottom: 52px;
   }
 
-.paragraphcontact{
-  font-size: 15px !important;
-  margin: 35px;
-  font-weight: lighter !important;
-  font-family: Helvetica, Neue !important;
-  line-height: 34px;
-  text-align: center !important;
-
-}
 .contactform{
  position: relative;
      margin-bottom: -164px;
@@ -102,15 +89,15 @@
 @media only screen and (min-width: 300px){
 .contactus {
 h2{
-    font-size: 31px;
-    font-weight: bold !important;
+    font-family: Bebas Neue !important;
+    font-size: 44px !important;
 }
 }
 
-.paragraphcontact{
-p{
+.paragraphcontact {
       font-size: 19px !important;
-    }
+      font-weight: 300 !important;
+      font-family: Helvetica Neue !important;
 }
 
 .messagetitle2{
