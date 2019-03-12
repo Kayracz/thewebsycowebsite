@@ -11,6 +11,7 @@
     h2{
     font-size: 44px !important;
     }
+
     }
 
 
@@ -22,6 +23,10 @@
 .btn:not(:disabled):not(.disabled) {
     cursor: pointer;
     background-color: #0A1C58;
+     a {
+    color: white;
+    text-decoration: none;
+}
 }
 
 @media only screen and (max-width: 768px) {
