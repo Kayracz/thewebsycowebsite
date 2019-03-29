@@ -33,3 +33,4 @@ yarn-debug.log*
 public/assets
 sendgrid.env
 
+.env*

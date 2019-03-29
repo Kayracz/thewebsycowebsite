@@ -1,0 +1,88 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.article{
+    font-size: 44px;
+    font-family: bebas Neue;
+    margin-top: 10%;
+    color:#0A1C58;
+}
+
+@media only screen and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  /* STYLES GO HERE */
+.blogimages img {
+    height: 170px !important;
+  }
+}
+
+.blogimages{
+img{
+  height:250px;
+  border-radius: 1px;
+  margin-top:20px;
+  margin-bottom:20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+}
+
+.blogs p{
+margin-bottom: 37px !important;
+// margin-left: 3% !important;
+
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.blogs h2{
+
+}
+
+.card-title{
+    line-height: normal;
+    font-size: 36px;
+    font-family: bebas neue;
+    color: #0A1C58;
+}
+
+.card-text{
+    line-height: normal;
+    font-size: 24px;
+}
+
+
+.morecontent span {
+    display: none;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 16px;
+}
+.morelink {
+    display: block;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 16px;
+}
+
+.more{
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 16px;
+}
+
+.cardi{
+  opacity: 2px;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  margin-bottom: 2%;
+}
+
+.blogcards{
+    background-color: white;
+    opacity: 0.9;
+    margin-bottom: 5%;
+  }
