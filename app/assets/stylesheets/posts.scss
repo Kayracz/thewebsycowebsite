@@ -9,12 +9,18 @@
     color:#0A1C58;
 }
 
+.articles{
+  font-size: 20px;
+}
+
 @media only screen and (min-device-width : 768px)
 and (max-device-width : 1024px)  {
   /* STYLES GO HERE */
 .blogimages img {
     height: 170px !important;
   }
+
+
 }
 
 .blogimages{
@@ -86,3 +92,5 @@ margin-bottom: 37px !important;
     opacity: 0.9;
     margin-bottom: 5%;
   }
+
+

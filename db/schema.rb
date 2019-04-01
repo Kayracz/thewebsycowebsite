@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_03_29_155631) do
+ActiveRecord::Schema.define(version: 2019_04_01_181654) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -60,6 +60,26 @@ ActiveRecord::Schema.define(version: 2019_03_29_155631) do
     t.string "photo"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text "text11"
+    t.text "text12"
+    t.text "text13"
+    t.text "text14"
+    t.text "text15"
+    t.text "text16"
+    t.text "text17"
+    t.text "text18"
+    t.text "text19"
+    t.text "text20"
+    t.text "text21"
+    t.text "text22"
+    t.text "text23"
+    t.text "text24"
+    t.text "text25"
+    t.text "text26"
+    t.text "text27"
+    t.text "text28"
+    t.text "text29"
+    t.text "text30"
   end
 
   create_table "users", force: :cascade do |t|
@@ -70,6 +90,16 @@ ActiveRecord::Schema.define(version: 2019_03_29_155631) do
     t.datetime "remember_created_at"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text "text11"
+    t.text "text12"
+    t.text "text13"
+    t.text "text14"
+    t.text "text15"
+    t.text "text16"
+    t.text "text17"
+    t.text "text18"
+    t.text "text19"
+    t.text "text20"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
