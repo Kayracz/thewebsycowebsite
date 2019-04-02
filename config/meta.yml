@@ -1,5 +1,5 @@
 meta_product_name: "The Websy Co."
 meta_title: "The Websy Co."
 meta_description: "Websy is a digital consulting company that focuses on helping businesses leverage technology to get more clients, improve efficiency and create innovative products."
-meta_image: "web.jpg" # should exist in `app/assets/images/`
+meta_image: "https://www.thewebsyco.com/assets/web-5ba21ca263d6eb7318b4f6bf85016c06afe4e7c95d86303400d525b442d9ecec.jpg" # should exist in `app/assets/images/`
 
