@@ -10,6 +10,8 @@ es:
    footer1: "Como Trabajamos"
    footer2: "Servicios"
    footer3: "Contacto"
+   footer4: "Precios"
+   footer5: "Blog"
    name: "Nombre"
    email: "Email"
    message: "Mensaje o Comentario"

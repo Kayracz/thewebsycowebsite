@@ -14,18 +14,38 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
-$('[data-show="more"]').on('click', function(event) {
- event.preventDefault();
-    if ( $(this).attr('more-collapse') === 'false' ) {
-     $(this).attr('more-collapse', 'true');
-     $(this).prev('.more-text').removeClass('hide');
-     $(this).text('less');
-    }  else {
-         $(this).text('more');
-         $(this).attr('more-collapse', 'false');
-         $(this).prev('.more-text').addClass('hide');
-    }
-});
+
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+
+
+
+// $('[data-show="more"]').on('click', function(event) {
+//  event.preventDefault();
+//     if ( $(this).attr('more-collapse') === 'false' ) {
+//      $(this).attr('more-collapse', 'true');
+//      $(this).prev('.more-text').removeClass('hide');
+//      $(this).text('less');
+//     }  else {
+//          $(this).text('more');
+//          $(this).attr('more-collapse', 'false');
+//          $(this).prev('.more-text').addClass('hide');
+//     }
+// });
 
 
 

@@ -2,19 +2,31 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.elements{
+ padding: 1%;
+ // border-style: solid;
+ // border-width: 0.9px;
+ color: #0A1C58;
+}
+
 .hide {
      display: none;
 }
 
+#more {display: none;}
+
+.top{
+margin-top: -1.5%;
+}
 
 .postimage img{
-      height: 234px;
+      height: 226px;
 }
 
 .article{
     font-size: 44px;
     font-family: bebas Neue;
-    margin-top: 10%;
+    margin-top: 15%;
     color:#0A1C58;
 }
 
@@ -29,8 +41,40 @@ and (max-device-width : 1024px)  {
     height: 170px !important;
   }
 
+.postimage img{
+      height: 214px;
+}
+
+  .blogs{
+    margin-top: 25%;
+}
+
+.article{
+  margin-top: 20% !important;
+}
+
 
 }
+
+@media only screen and (max-width: 768px) {
+  .blogs{
+    margin-top: 25%;
+}
+
+.article{
+  margin-top: 20% !important;
+}
+
+.postimage img{
+      height: 219px;
+}
+
+
+}
+
+
+
+
 
 .blogimages{
 img{
@@ -49,6 +93,7 @@ margin-bottom: 37px !important;
     font-style: normal;
     font-weight: normal;
     line-height: normal;
+    color: #0A1C58;
 }
 
 .blogs h2{
@@ -60,6 +105,7 @@ margin-bottom: 37px !important;
     font-size: 36px;
     font-family: bebas neue;
     color: #0A1C58;
+    font-weight: lighter;
 }
 
 .card-text{
@@ -101,5 +147,8 @@ margin-bottom: 37px !important;
     opacity: 0.9;
     margin-bottom: 5%;
   }
+
+
+
 
 
