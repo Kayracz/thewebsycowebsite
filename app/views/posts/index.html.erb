@@ -10,22 +10,22 @@
 
 
 <!--blogs -->
-<hr>
+<!-- <hr>
 <div class="container blogcards">
-  <% @posts.each do |post| %>
+  <%# @posts.each do |post| %>
     <div class="row">
       <div class="cardi col-md-12 p-3">
         <div class="row ">
           <div class="col-md-4">
             <div class="blogimages img-fluid" style=" max-width: 100%; height: auto;">
-           <%= cl_image_tag post.photo %>
+           <%#= cl_image_tag post.photo %>
           </div>
         </div>
           <div class="col-md-7 w-responsive mx-auto">
             <div class="card-block">
-              <h6 class="card-title h6-responsive"><%= post.title %></h6>
-                <h5> <%= post.created_at.strftime('%b %d, %Y') %> </h5>
-                <h5> <%=post.subtitle %></h5>
+              <h6 class="card-title h6-responsive"><%#= post.title %></h6>
+                <h5> <%#= post.created_at.strftime('%b %d, %Y') %> </h5>
+                <h5> <%#=post.subtitle %></h5>
           </br>
               <div>
               </div>
@@ -33,76 +33,214 @@
 
 
  <span class="more">
- <%= post.text1 %>
+ <%#= post.text1 %>
        <br>
        <br>
- <%= post.text2 %>
+ <%#= post.text2 %>
        <br>
        <br>
- <%= post.text3 %>
+ <%#= post.text3 %>
        <br>
        <br>
-<%= post.text4 %>
+<%#= post.text4 %>
        <br>
        <br>
-<%= post.text5 %>
+<%#= post.text5 %>
        <br>
        <br>
-<%= post.text6 %>
+<%#= post.text6 %>
        <br>
        <br>
-<%= post.text7 %>
+<%#= post.text7 %>
        <br>
        <br>
-<%= post.text8 %>
+<%#= post.text8 %>
        <br>
        <br>
-<%= post.text9 %>
+<%#= post.text9 %>
        <br>
        <br>
-<%= post.text10 %>
+<%#= post.text10 %>
        <br>
        <br>
-<%= post.text11 %>
+<%#= post.text11 %>
        <br>
        <br>
-<%= post.text12 %>
+<%#= post.text12 %>
        <br>
        <br>
-<%= post.text13 %>
+<%#= post.text13 %>
        <br>
        <br>
-<%= post.text14 %>
+<%#= post.text14 %>
        <br>
        <br>
-<%= post.text15 %>
+<%#= post.text15 %>
        <br>
        <br>
-<%= post.text16 %>
+<%#= post.text16 %>
        <br>
        <br>
-<%= post.text17 %>
+<%#= post.text17 %>
        <br>
        <br>
-<%= post.text18 %>
+<%#= post.text18 %>
        <br>
        <br>
-<%= post.text19 %>
+<%#= post.text19 %>
        <br>
        <br>
-<%= post.text20 %>
+<%#= post.text20 %>
+       <br>
+       <br>
 
 
   </span>
-
-
           </div>
         </div>
-           <!--  <hr> -->
+           <--  <hr> -->
       </div>
     </div>
-  <% end %>
 </div>
 </div>
+
+
+
+
+
+<!-- Section: Blog v.3 -->
+<section class="container my-5">
+
+  <!-- Section heading -->
+  <!-- Section description -->
+  <p class="text-center dark-grey-text w-responsive mx-auto mb-5"><!-- Duis aute irure dolor in reprehenderit in
+    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. --></p>
+
+  <!-- Grid row -->
+  <div class="row">
+
+    <!-- Grid column -->
+    <div class="col-lg-5 col-xl-4">
+
+      <!-- Featured image -->
+      <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
+        <div class="img-fluid img-responsive postimage">
+        <%= image_tag("web.jpg") %>
+           </div>
+        <a>
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-lg-7 col-xl-8">
+
+      <!-- Post title -->
+      <h3 class="card-title font-weight-bold mb-3"><strong>Why Your Website Design Matters More Than You Thought</strong></h3>
+      <!-- Excerpt -->
+      <p class="dark-grey-text">It’s hard to believe that more than a third of small business owners still don’t have a website – but that’s what <a href="https://clutch.co/website-builders/resources/small-business-websites-2018"> Clutch’s 2018 Small Business Survey</a> concluded last year. </p>
+
+      <p> The good news is that, of those that don’t have one, 58% said they were going to build one in 2019.  The bad news is that many of these late-adopters will waste an opportunity to take their business to new heights by getting a website that’s not well-suited to them.</p>
+
+      <p> We’re currently in the midst of an entrepreneurial revolution.  With search engines and social media at your side, just about anyone can start their own business.  You probably know someone who’s travel blogging on the side or who quit their job to sell earbuds online. But this millennial scramble to change the world – or become the next beach-based CEO – has created a fiercely competitive online landscape.  It’s almost impossible now to have a completely unique business model, so you can be pretty sure someone else out there is doing exactly what you are.
+     </p>
+      <!-- Post data -->
+      <!-- Read more button -->
+
+  <p> Still, this is no reason to give up and go live in your parents’ basement.  It just means that fine details have become extremely important.  Your website is no longer just a budget item, like a water cooler or a receptionist (just kidding Susan).  It’s a critical part of your growth strategy which can make the difference between doubling the size of your sales team and having to cancel lunch on Fridays.  So make sure you get a good one!</p>
+
+  <div class="more-text hide">
+
+  <p> <strong> What is a ‘good’ design? </strong> <p>
+
+   <p> In an <a href="https://www.adobe.com/content/dam/acom/hk_en/about-adobe/newsroom/pdfs/Adobe%20Survey%20Reveals%20Lower%20Levels%20of%20Customer%20Experience%20Personalization%20in%20Mobile%20apps%20and%20Sections%20Aimed%20at%20Product%20Recommendation_en.pdf">Adobe survey</a>, 46% of people said they would “not purchase from a brand if its website or mobile experience is poorly designed."  On top of that, 50% admitted to judging companies based on design quality.  It might hurt to hear this, but if people don’t like the look of your homepage they’re not gonna stick around to read that About Us page you spent three nights writing.  You have just a few seconds to impress your audience before they hit the road.</p>
+
+   <p> So are we just saying that your website needs to be fancy, and look like a ton of capital has been thrown behind it?  Not at all.  A clean layout and decent mobile responsiveness are certainly indispensable in 2019, because above all they inspire trust.  And if you’re new to the game, you need people to trust you.</p>
+
+   <p> But the truth is that a ‘good’ design completely depends on your <strong>business goals<strong> – and this is where a lot of small business owners go wrong.  They get sucked in by a spinning logo or large-sized photographs, when really they just need to sell baby products to moms.</p>
+
+   <p> Let’s take a look at a few examples of how your ideal design could be tied directly to your business goals.</p>
+
+   <p> <strong> e-Commerce </strong> </p>
+
+   <p> Think for a moment about what it’s like to enjoy a real-life shopping experience. </p>
+
+   <p> Maybe you appreciate the big labels over the aisles that tell you where the cookies are.  Maybe it’s the warm smile you get from the checkout lady as you take your receipt.</p>
+
+   <p> If you’re selling products online, your website is simply an online representation of these experiences and the emotions they generate.  The way your products are ordered and aligned on your homepage is just like the well-organised aisles you’re thinking about right now, with all the bottles of ketchup facing the same way.</p>
+
+   <p> Maybe your cart page has a few tasty add-ons that the customer can’t resist throwing in, just like those bags of chips that face them as they wait in line at the grocery store.  You certainly want your checkout pages to be more like smiley Jane, and less like clumsy John, who looks hungover every morning and always drops the change everywhere.</p>
+
+   <p>This might all sound silly, but these fine details affect how your customers feel, and they make a difference as to whether or not they will come back or even make a purchase in the first place.  An e-commerce platform needs to drive your customers to your most profitable products first, and create absolutely no friction towards the user as they type in their payment information.  Clean design is key.  It needs to be a fast, smooth and fun experience.  If your site is enjoyable just to browse, then you’re going to make more impulse sales.  If it’s frustrating as hell to find anything and it takes 15 minutes to get through the checkout process, people are just going to give up.  Patience is thin these days.</p>
+
+   <p> As the site owner, you need the flexibility to change the order of your products, run promotions, create product combos.  If you can’t do these things, you’re simply leaving money on the table.</p>
+
+
+   <p> <strong> Blogging </strong> </p>
+
+   <p> Another exploding trend online is blogging – usually with the goal of monetizing your site through affiliate marketing, or just becoming well-known enough that you get free shoes or trips to the Bahamas. </p>
+
+
+   <p> This is a perfect example of a competitive landscape.   If you’re trying your hand at being a travel, food, or mommy blogger, just scroll through Instagram for a minute or two and see how many other people are doing that too.  Don’t feel discouraged – after all, you’re the best damn travel blogger there is – but if your site isn’t properly designed, what hope have you really got of beating the others?</p>
+
+   <p> The first thing to think about as a blogger is your traffic source.  You’re probably most interested in catching people who are actively searching for related topics on Google.  They want to know where the best ceviche is in Cusco, and boom – up pops your site, ahead of all the others.  If only it was that easy, right?</p>
+
+   <p> Well, if your site is designed properly, you have every chance of being up there at the top.  But blogs need to be optimized for search engines.  Without getting too technical, this means it has to be very clear to a robot crawling your site exactly what your site is about, how much information is on it and how detailed that information is.  If your titles are clear, your articles are smartly linked together and there are nice big share buttons on each one, your content is going to become better recognised by search engines and, in turn, more widespread across social media.  People will spend longer on your site because they will naturally go from one thing to the next.  They’ll be hooked!</p>
+
+  <p> What you don’t want as a blogger is a gimmicky website that’s image-laden or made completely in JavaScript.  These sites are more complex for Google to understand and, bearing in mind the purpose of your site, they will only create a less good experience for your readers.  Ultimately with blogs, people care less about how fancy it is.  They are simply there to <strong>get the information they need</strong>.  And you will be rewarded for making that information as easy to consume as possible.</p>
+
+
+  <p> <strong> Sharing economy </strong></p>
+
+  <p> Uber, AirBnb, WeWork… the concept of sharing private services has seen some of the world’s most successful online businesses spring up out of nowhere in the past 10 years.  The beauty of these operations is that the participation of their users drive their success, so all you have to do is create a platform on which they can work things out between themselves.</p>
+
+
+  <p> Whether you’re the service seller or the service user, these platforms require some level of management on behalf of the user.  As a seller you need to know who still needs to pay you or which of your luxury islands is being rented out this weekend.  As a buyer, you need to know what has become available in your area and which sellers you can trust.</p>
+
+ <p> Creating a good experience for your users is about how effectively they can organize information and how quickly they can see what has been updated since they last logged in.  You’ll want to include features like notifications, bookmarkable listings, editable profiles, various bits of data that can be adjusted at a moment’s notice.</p>
+
+
+<p> Because most of your users will already have a presence on social media, it helps to have features like Facebook login so that they don’t spend all their time filling out personal details and they can easily log in on all of their devices.  Mobile design will be pivotal, because they’ll almost certainly need to use your site on the move.  Users need to be able to communicate with each other through instant messaging.  You’ll need a robust payment platform that accepts multiple payment methods.</p>
+
+
+<p> If you’re running this kind of business, you’ve probably already thought this stuff through – but you’d be surprised at how many people think putting users in touch with each other is enough.  These are the kind of websites where one lacking feature can give someone else the opportunity to put you out of business.</p>
+
+
+<p> <strong> Think hard and choose wisely </strong> <p>
+
+<p> If there’s one thing to take away from this, it’s that you can’t just hand over your website to someone who won you over with an animated menu or offered to do it for next to nothing.</p>
+
+<p> Your website is arguably the most important asset to your business these days, because you can use it not only to raise awareness but to increase trust, get your visitors engaged and ultimately generate profit.</p>
+
+<p> If any of these concepts inspired you or you would like to find out more about what kind of site would work best for your business, feel free to  contact us.<p>
+
+        </div>
+
+
+
+
+
+      <a data-show="more" more-collapse="false" href="/" class="showmore">more</a>
+      <p> <a class="font-weight-bold"></a> 19/01/2019</p>
+     </p>
+</div>
+
+
+
+
+    </div>
+    <!-- Grid column -->
+
+  </div>
+  <!-- Grid row -->
+
+
+
+</section>
+<!-- Section: Blog v.3 -->
 
 <%= render 'shared/footerwhite' %>
