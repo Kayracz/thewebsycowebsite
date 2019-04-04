@@ -17,11 +17,36 @@
               <a href="/posts" class="navbar-wagon-item navbar-wagon-link" aria-expanded="false"><%= t "homes.footer5" %> </a>
 
 
-      <a href= "#" class="dropdown-toggle" data-toggle="dropdown" id="navbar-wagon-menu" data-toggle="dropdown" aria-expanded="false"><%= t "homes.language"%></a>
-      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+   <a href= "#" class="dropdown-toggle langmenu" data-toggle="dropdown" id="navbar-wagon-menu" data-toggle="dropdown" aria-expanded="false"><%= t "homes.language"%></a>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu ">
         <li> <%=link_to "English", locale:"en" %> </li>
         <li> <%=link_to "Español", locale:"es" %> </li>
       </ul>
+
+
+ <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fas fa-bars dropdown-toggle" data-toggle="dropdown" role="button"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="/home/index#about" class="navbar-wagon-item navbar-wagon-link" aria-expanded="false"><%= t "homes.footer" %></a></a></li>
+        <li><a href="/home/index#howwework" class="navbar-wagon-item navbar-wagon-link" aria-expanded="false"><%= t "homes.footer1" %></a></li>
+        <li>   <a href="/home/index#services" class="navbar-wagon-item navbar-wagon-link" aria-expanded="false"><%= t "homes.footer2" %></a></li>
+        <li> <a href="/messages/new" class="navbar-wagon-item navbar-wagon-link" aria-expanded="false"><%= t "homes.footer3" %></a></li>
+         <li> <a href="/home/pricing" class="navbar-wagon-item navbar-wagon-link" aria-expanded="false"><%= t "homes.footer4" %> </a></li>
+          <li> <a href="/posts" class="navbar-wagon-item navbar-wagon-link" aria-expanded="false"><%= t "homes.footer5" %> </a> </li>
+
+        <li class="divider"> </li>
+        <p style="margin-left: 10%"> Languages </p>
+        <li> <%=link_to "English", locale:"en" %> </li>
+        <li> <%=link_to "Español", locale:"es" %> </li>
+
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
     </div>
   </div>
 </div>
