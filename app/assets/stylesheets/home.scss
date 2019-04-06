@@ -169,7 +169,7 @@ main-title hidden {
 }
 .parallax .bg__foo {
   background-image:image-url('back.png');
-  opacity: 0.9 !important;
+  opacity: 1 !important;
   &:before{
     opacity: .1;
 }
@@ -206,15 +206,6 @@ main-title hidden {
   box-shadow: 0 1px 0.125em #333;
   color:rgb(20,20,20);
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -330,6 +321,8 @@ article section.parallax {
 
 //FIRST TITLE
 .titleweare{
+
+
   body {
     background-color: #FF5A5A;
     height: 100%;
