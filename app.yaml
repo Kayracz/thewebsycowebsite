@@ -1,9 +1,7 @@
-runtime: ruby
+entrypoint: bundle exec rackup --port $PORT
 env: flex
-entrypoint: bundle exec ruby app.rb
-manual_scaling:
-  instances: 1
-resources:
-  cpu: 1
-  memory_gb: 0.5
-  disk_size_gb: 10
+runtime: ruby
+
+env_variables:
+  SECRET_KEY_BASE: f0b6139d45e7d6bf03839357c77c7bf7081b0f74097525264c1da5fdb6787b62e026e91e3f4fd22b76bab04c68c0d5b3c49bbf80f63780992fa1998182d7f40
+
